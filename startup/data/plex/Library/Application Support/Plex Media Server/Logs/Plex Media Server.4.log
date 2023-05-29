@@ -1,0 +1,1419 @@
+May 28, 2023 19:03:21.827 [140063654890296] INFO - Plex Media Server v1.32.2.7100-248a2daf0 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT 00:00
+May 28, 2023 19:03:21.827 [140063654890296] INFO - Linux version: 5.15.94, language: en-US
+May 28, 2023 19:03:21.827 [140063654890296] INFO - Processor: 4-core Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+May 28, 2023 19:03:21.827 [140063654890296] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
+May 28, 2023 19:03:21.827 [140063654890296] INFO - /usr/lib/plexmediaserver/Plex Media Server
+May 28, 2023 19:03:21.829 [140063657433744] DEBUG - BPQ: [Idle] -> [Starting]
+May 28, 2023 19:03:21.829 [140063657433744] DEBUG - FeatureManager: Using cached data for features list
+May 28, 2023 19:03:21.873 [140063657433744] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+May 28, 2023 19:03:21.873 [140063657433744] DEBUG - HttpServer: Listening on port 32400.
+May 28, 2023 19:03:21.873 [140063657433744] DEBUG - HttpServer: Listening on port 32401.
+May 28, 2023 19:03:21.873 [140063657433744] DEBUG - Running server...
+May 28, 2023 19:03:21.873 [140063657433744] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 28, 2023 19:03:21.873 [140063644810040] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+May 28, 2023 19:03:21.904 [140063657433744] INFO - Running migrations. (EPG 0)
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 0.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 1.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 2.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 3.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 4.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 5.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 6.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 7.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 8.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 9.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 10.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 11.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 12.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 13.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 14.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 15.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 16.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 17.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 18.
+May 28, 2023 19:03:21.904 [140063657433744] DEBUG - Captured session 19.
+May 28, 2023 19:03:21.907 [140063657433744] DEBUG - ChangestampAllocator: initialized to 0
+May 28, 2023 19:03:21.907 [140063657433744] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.39.4, threadsafe=1
+May 28, 2023 19:03:21.914 [140063657433744] INFO - Running migrations. (EPG 0)
+May 28, 2023 19:03:21.914 [140063657433744] DEBUG - Captured session 0.
+May 28, 2023 19:03:21.914 [140063657433744] DEBUG - Captured session 1.
+May 28, 2023 19:03:21.926 [140063657433744] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+May 28, 2023 19:03:21.926 [140063657433744] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+May 28, 2023 19:03:21.926 [140063657433744] DEBUG - MyPlex: mapping state set to 'Unknown'.
+May 28, 2023 19:03:21.926 [140063657433744] DEBUG - Relay: read 0 cached entries from hosts file
+May 28, 2023 19:03:21.926 [140063633521464] DEBUG - Grabber: Cleaning up orphaned grabs.
+May 28, 2023 19:03:21.926 [140063633521464] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+May 28, 2023 19:03:21.928 [140063636691768] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+May 28, 2023 19:03:21.934 [140063657433744] DEBUG - Opening 1 database sessions to library (), SQLite 3.39.4, threadsafe=1
+May 28, 2023 19:03:21.936 [140063626910520] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0" changed: -1 => 2023-05-22 17:29:08 (1684776548).
+May 28, 2023 19:03:21.936 [140063626910520] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2023-05-28 14:26:04 (1685283964).
+May 28, 2023 19:03:21.936 [140063626910520] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0"
+May 28, 2023 19:03:21.938 [140063626910520] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+May 28, 2023 19:03:21.938 [140063626910520] DEBUG - PluginRepository::setStartState: 1, startingSystem
+May 28, 2023 19:03:21.938 [140063626910520] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/System.bundle.
+May 28, 2023 19:03:21.938 [140063626910520] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+May 28, 2023 19:03:21.939 [140063626910520] DEBUG - Starting file watcher for com.plexapp.system
+May 28, 2023 19:03:21.939 [140063626910520] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+May 28, 2023 19:03:21.939 [140063626910520] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+May 28, 2023 19:03:21.943 [140063626910520] DEBUG - Spawned plug-in com.plexapp.system with PID 171
+May 28, 2023 19:03:21.943 [140063626910520] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+May 28, 2023 19:03:22.256 [140063633521464] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability
+May 28, 2023 19:03:22.256 [140063633521464] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability-platforms
+May 28, 2023 19:03:22.256 [140063633521464] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 1
+May 28, 2023 19:03:22.256 [140063633521464] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+May 28, 2023 19:03:22.834 [140063648107320] DEBUG - Request: didn't get any data from [::1]:58768: End of file
+May 28, 2023 19:03:23.035 [140063620418360] DEBUG - Request: [127.0.0.1:54382 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #3 GZIP Token ()
+May 28, 2023 19:03:23.035 [140063648107320] DEBUG - Completed: [127.0.0.1:54382] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (4 live) #3 GZIP 1ms 436 bytes
+May 28, 2023 19:03:23.035 [140063620418360] DEBUG - Request: [127.0.0.1:54394 (Loopback)] GET / (3 live) #4 GZIP Token ()
+May 28, 2023 19:03:23.035 [140063648107320] DEBUG - Completed: [127.0.0.1:54394] 503 GET / (3 live) #4 GZIP 0ms 436 bytes
+May 28, 2023 19:03:23.753 [140063620418360] DEBUG - Request: [127.0.0.1:54402 (Loopback)] GET /servers (3 live) #5 GZIP Token ()
+May 28, 2023 19:03:23.753 [140063648107320] DEBUG - Completed: [127.0.0.1:54402] 503 GET /servers (3 live) #5 GZIP 0ms 436 bytes
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG - Reading 486 bytes in the body, code is 200
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG - [com.plexapp.system] Plug-in running on port 45287.
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG -  * Plug-in handles prefix: /system
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG -  * Plug-in handles prefix: /player
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG - Updating the list of agents known by the system.
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+May 28, 2023 19:03:23.766 [140063626910520] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:45287/system/agents
+May 28, 2023 19:03:23.766 [140063657433744] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+May 28, 2023 19:03:23.767 [140063657433744] DEBUG - Transcoder: Cleaning old transcode directories.
+May 28, 2023 19:03:23.767 [140063657433744] DEBUG - MyPlex: stop public ip check and mapping - current mapped state: 'Unknown'.
+May 28, 2023 19:03:23.767 [140063657433744] DEBUG - NetworkInterface: Starting watch thread.
+May 28, 2023 19:03:23.767 [140063657433744] DEBUG - Network change.
+May 28, 2023 19:03:23.767 [140063657433744] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - Detected primary interface: 10.0.0.102
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - Network interfaces:
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (10.0.0.102) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 3 br-0d2c17ab45c5 (172.18.0.1) (02-42-49-EB-B1-33) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 26 br-dfc9b80cb405 (172.20.0.1) (02-42-C8-98-99-11) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 333 br-d76ce439f1ce (172.23.0.1) (02-42-1B-FF-1B-40) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 113 br-288c89156704 (172.21.0.1) (02-42-F3-0E-1F-37) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 118 br-157eabd9e6c4 (172.22.0.1) (02-42-B9-34-54-86) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:5781:5463:4aff:da07) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:bdbe:702:ab13:6282) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:8a42:896f:807e:2eea) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:f6bf:f73c:5296:bea3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:6516:fd2d:89d3:1606) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:23be:6c0:17d0:9be7) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390::d7d3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:dab8:44c6:f05a:e89e) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:ca1f:66ff:fe36:3b98) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - Creating NetworkServices singleton.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkServices: Initializing...
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Creating new service.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Quick dispatch of network change.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Creating new service.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Quick dispatch of network change.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Creating new service.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Quick dispatch of network change.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Creating new service.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Quick dispatch of network change.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Creating new service.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Quick dispatch of network change.
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Creating new service.
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 28, 2023 19:03:23.768 [140063657433744] DEBUG - NetworkService: Quick dispatch of network change.
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 3)
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 4)
+May 28, 2023 19:03:23.768 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 5)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 6)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 3)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 4)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 5)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 6)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 239.255.255.250 (index: 0)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 1)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 2)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 239.255.255.250 (index: 3)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 239.255.255.250 (index: 4)
+May 28, 2023 19:03:23.769 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 239.255.255.250 (index: 5)
+May 28, 2023 19:03:23.768 [140063611747128] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+May 28, 2023 19:03:23.772 [140063607528248] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
+May 28, 2023 19:03:23.772 [140063607528248] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.32.2.7100-248a2daf0 32600
+May 28, 2023 19:03:23.773 [140063607528248] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 234
+May 28, 2023 19:03:23.810 [140063631395640] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:45287/system/agents
+May 28, 2023 19:03:23.810 [140063626910520] DEBUG - [com.plexapp.system] HTTP reply status 200, with 11297 bytes of content.
+May 28, 2023 19:03:23.812 [140063626910520] DEBUG - The system knows about 16 agents.
+May 28, 2023 19:03:23.812 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/LastFM.bundle.
+May 28, 2023 19:03:23.812 [140063603243832] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/MoviePosterDB.bundle.
+May 28, 2023 19:03:23.813 [140063626910520] DEBUG - Waiting for 20 plug-ins to finish starting.
+May 28, 2023 19:03:23.813 [140063605353272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+May 28, 2023 19:03:23.813 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PersonalMedia.bundle.
+May 28, 2023 19:03:23.813 [140063603243832] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+May 28, 2023 19:03:23.813 [140063603243832] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/OpenSubtitles.bundle.
+May 28, 2023 19:03:23.814 [140063601134392] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexMusic.bundle.
+May 28, 2023 19:03:23.814 [140063603243832] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.opensubtitles] yet.
+May 28, 2023 19:03:23.814 [140063603243832] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexMovieNew.bundle.
+May 28, 2023 19:03:23.815 [140063605353272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+May 28, 2023 19:03:23.815 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexThemeMusic.bundle.
+May 28, 2023 19:03:23.816 [140063603243832] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.movie] yet.
+May 28, 2023 19:03:23.816 [140063603243832] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Musicbrainz.bundle.
+May 28, 2023 19:03:23.816 [140063605353272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+May 28, 2023 19:03:23.817 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/HTbackdrops.bundle.
+May 28, 2023 19:03:23.818 [140063605353272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+May 28, 2023 19:03:23.818 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/LyricFind.bundle.
+May 28, 2023 19:03:23.818 [140063601134392] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.music] yet.
+May 28, 2023 19:03:23.818 [140063603243832] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+May 28, 2023 19:03:23.819 [140063603243832] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Fanart-TV.bundle.
+May 28, 2023 19:03:23.819 [140063605353272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+May 28, 2023 19:03:23.819 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Media-Flags.bundle.
+May 28, 2023 19:03:23.819 [140063601134392] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexMovie.bundle.
+May 28, 2023 19:03:23.820 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle.
+May 28, 2023 19:03:23.821 [140063601134392] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+May 28, 2023 19:03:23.821 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/LocalMedia.bundle.
+May 28, 2023 19:03:23.821 [140063603243832] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+May 28, 2023 19:03:23.821 [140063603243832] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Framework.bundle.
+May 28, 2023 19:03:23.821 [140063601134392] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/TheMovieDB.bundle.
+May 28, 2023 19:03:23.822 [140063605353272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+May 28, 2023 19:03:23.822 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Scanners.bundle.
+May 28, 2023 19:03:23.823 [140063605353272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/TheTVDB.bundle.
+May 28, 2023 19:03:23.823 [140063603243832] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexSeries.bundle.
+May 28, 2023 19:03:23.824 [140063605353272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+May 28, 2023 19:03:23.825 [140063603243832] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.series] yet.
+May 28, 2023 19:03:23.825 [140063601134392] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+May 28, 2023 19:03:23.825 [140063626910520] DEBUG - Starting scheduled updates, every 3600 seconds
+May 28, 2023 19:03:23.825 [140063626910520] INFO - LibraryUpdateManager path watching is disabled
+May 28, 2023 19:03:23.825 [140063626910520] DEBUG - Done waiting for all plug-ins to start.
+May 28, 2023 19:03:23.825 [140063626910520] DEBUG - PluginRepository::setStartState: 3, complete
+May 28, 2023 19:03:23.825 [140063571438392] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale sr
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale ar
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale pt_BR
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale es
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale de
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale hu
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale af
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale nl_BE
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale lt
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale sk
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale et_EE
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale ru
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale sl
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale ro
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale da
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale fi
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale pt
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale ko
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale ja_JP
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale no
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale cs_CZ
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale fr
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale hr_HR
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale sv
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale en
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale nl
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale he
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale hu_HU
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale uk
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale it
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale pl
+May 28, 2023 19:03:23.826 [140063571438392] DEBUG - Translator: Found locale zh_CN
+May 28, 2023 19:03:23.827 [140063613856568] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.32.2.7100-248a2daf0" --version=1.32.2.7100-248a2daf0 --platform=Linux --platformVersion=5.15.94 --serverUuid=f9bc795cf65c88a148b297975c19a35fac926692 --userId=NOUSERID --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/minidump/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container (LinuxServer.io)"
+May 28, 2023 19:03:23.828 [140063613856568] DEBUG - [JobRunner] Jobs: Starting child process with pid 272
+May 28, 2023 19:03:23.829 [140063571438392] DEBUG - [Req#b] Starting file watcher for com.plexapp.agents.imdb
+May 28, 2023 19:03:23.829 [140063571438392] DEBUG - [Req#b] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+May 28, 2023 19:03:23.829 [140063571438392] DEBUG - [Req#b] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+May 28, 2023 19:03:23.830 [140063571438392] DEBUG - [Req#b] Spawned plug-in com.plexapp.agents.imdb with PID 274
+May 28, 2023 19:03:23.830 [140063571438392] DEBUG - [Req#b] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+May 28, 2023 19:03:23.842 [140063652690744] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 272 is 0 (success)
+May 28, 2023 19:03:24.086 [140063613856568] DEBUG - DVR: Starting up.
+May 28, 2023 19:03:24.086 [140063657433744] DEBUG - [HCl#4] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+May 28, 2023 19:03:24.086 [140063613856568] DEBUG - Activity: registered new activity 8823010b-5e65-4ce4-9f8a-510607c81d67 - "Processing subscriptions"
+May 28, 2023 19:03:24.127 [140063636691768] DEBUG - [MediaProviderManager] we had 1 cloud providers online, we now have 1
+May 28, 2023 19:03:24.127 [140063636691768] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+May 28, 2023 19:03:24.482 [140063620418360] DEBUG - Request: [127.0.0.1:54408 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #9 GZIP Token ()
+May 28, 2023 19:03:24.482 [140063620418360] DEBUG - [Req#9] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+May 28, 2023 19:03:24.482 [140063620418360] DEBUG - [Req#9/HCl#6] HTTP requesting GET http://127.0.0.1:45287/system/messaging/clear_events/com.plexapp.agents.imdb
+May 28, 2023 19:03:24.500 [140063631395640] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:45287/system/messaging/clear_events/com.plexapp.agents.imdb (reused)
+May 28, 2023 19:03:24.500 [140063620418360] DEBUG - [Req#9] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+May 28, 2023 19:03:24.500 [140063648107320] DEBUG - Completed: [127.0.0.1:54408] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #9 GZIP 18ms 280 bytes
+May 28, 2023 19:03:24.512 [140063631395640] DEBUG - [HttpClient/HCl#4] HTTP/2.0 (0.4s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+May 28, 2023 19:03:24.512 [140063657433744] DEBUG - [HCl#7] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+May 28, 2023 19:03:24.597 [140063618075448] DEBUG - Request: [127.0.0.1:54424 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #c GZIP Token ()
+May 28, 2023 19:03:24.597 [140063618075448] DEBUG - [Req#c] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+May 28, 2023 19:03:24.598 [140063618075448] DEBUG - [Req#c/HCl#8] HTTP requesting GET http://127.0.0.1:45287/:/plugins/com.plexapp.system/resourceHashes
+May 28, 2023 19:03:24.644 [140063631395640] DEBUG - [HttpClient/HCl#7] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxx
+May 28, 2023 19:03:24.645 [140063657433744] DEBUG - [DatabaseFixups] Running fix-ups.
+May 28, 2023 19:03:24.645 [140063657433744] DEBUG - [DatabaseFixups] Destroyed 0 transient items.
+May 28, 2023 19:03:24.646 [140063657433744] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
+May 28, 2023 19:03:24.646 [140063657433744] DEBUG - [HCl#9] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=
+May 28, 2023 19:03:24.704 [140063631395640] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.1s) 404 response from GET http://127.0.0.1:45287/:/plugins/com.plexapp.system/resourceHashes
+May 28, 2023 19:03:24.704 [140063618075448] DEBUG - [Req#c] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+May 28, 2023 19:03:24.704 [140063648107320] DEBUG - Completed: [127.0.0.1:54424] 404 GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #c GZIP 106ms 261 bytes
+May 28, 2023 19:03:24.714 [140063620418360] DEBUG - Request: [127.0.0.1:54432 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #e GZIP Token ()
+May 28, 2023 19:03:24.714 [140063620418360] DEBUG - [Req#e] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+May 28, 2023 19:03:24.714 [140063620418360] DEBUG - [Req#e/HCl#a] HTTP requesting GET http://127.0.0.1:45287/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+May 28, 2023 19:03:24.715 [140063618075448] DEBUG - Request: [127.0.0.1:54436 (Loopback)] GET / (4 live) #10 GZIP Token ()
+May 28, 2023 19:03:24.716 [140063648107320] DEBUG - Completed: [127.0.0.1:54436] 200 GET / (4 live) #10 GZIP 0ms 2158 bytes
+May 28, 2023 19:03:24.725 [140063631395640] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:45287/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+May 28, 2023 19:03:24.725 [140063620418360] DEBUG - [Req#e] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
+May 28, 2023 19:03:24.725 [140063648107320] DEBUG - Completed: [127.0.0.1:54432] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #e GZIP 10ms 746 bytes
+May 28, 2023 19:03:24.785 [140063631395640] DEBUG - [HttpClient/HCl#9] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxx
+May 28, 2023 19:03:24.786 [140063657433744] DEBUG - MyPlex: Sending unclaimed device connections
+May 28, 2023 19:03:24.786 [140063657433744] DEBUG - [HCl#b] HTTP requesting POST https://plex.tv/devices/f9bc795cf65c88a148b297975c19a35fac926692/unclaimed?Connection[][uri]=http://10.0.0.102:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://172.23.0.1:32400&Connection[][uri]=http://172.21.0.1:32400&Connection[][uri]=http://172.22.0.1:32400
+May 28, 2023 19:03:24.932 [140063631395640] DEBUG - [HttpClient/HCl#b] HTTP/2.0 (0.1s) 200 response from POST https://plex.tv/devices/f9bc795cf65c88a148b297975c19a35fac926692/unclaimed?Connection[][uri]=http://10.0.0.102:32400&Connection[][uri]=http://172.18.0.1:32400&Connection[][uri]=http://172.20.0.1:32400&Connection[][uri]=http://172.23.0.1:32400&Connection[][uri]=http://172.21.0.1:32400&Connection[][uri]=http://172.22.0.1:32400 (reused)
+May 28, 2023 19:03:24.932 [140063657433744] DEBUG - Waiting for server condition to be signaled.
+May 28, 2023 19:03:25.273 [140063618075448] DEBUG - Request: [127.0.0.1:55940 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #11 GZIP Token ()
+May 28, 2023 19:03:25.273 [140063618075448] DEBUG - [Req#11] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+May 28, 2023 19:03:25.273 [140063618075448] DEBUG - [Req#11/HCl#c] HTTP requesting GET http://127.0.0.1:45287/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+May 28, 2023 19:03:25.277 [140063631395640] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:45287/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+May 28, 2023 19:03:25.277 [140063618075448] DEBUG - [Req#11] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+May 28, 2023 19:03:25.277 [140063648107320] DEBUG - Completed: [127.0.0.1:55940] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #11 GZIP 4ms 415 bytes
+May 28, 2023 19:03:25.281 [140063571438392] DEBUG - [Req#b] Reading 148 bytes in the body, code is 200
+May 28, 2023 19:03:25.281 [140063571438392] DEBUG - [Req#b] [com.plexapp.agents.imdb] Plug-in running on port 42693.
+May 28, 2023 19:03:25.281 [140063571438392] DEBUG - [Req#b] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+May 28, 2023 19:03:25.281 [140063571438392] DEBUG - [Req#b] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+May 28, 2023 19:03:25.281 [140063571438392] DEBUG - [Req#b/HCl#d] HTTP requesting GET http://127.0.0.1:42693/:/plugins/com.plexapp.agents.imdb/prefs
+May 28, 2023 19:03:25.296 [140063631395640] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:42693/:/plugins/com.plexapp.agents.imdb/prefs
+May 28, 2023 19:03:25.296 [140063571438392] DEBUG - [Req#b] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+May 28, 2023 19:03:25.296 [140063571438392] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 36d0599481de8a19d08108f2f03337c263144952
+May 28, 2023 19:03:25.297 [140063571438392] DEBUG - IVA: Downloading trailer lists.
+May 28, 2023 19:03:25.343 [140063571438392] DEBUG - IVA: Downloaded 55 trailers for source 1.
+May 28, 2023 19:03:25.375 [140063571438392] DEBUG - IVA: Downloaded 22 trailers for source 2.
+May 28, 2023 19:03:28.768 [140063609637688] DEBUG - [NSB] NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (nixos-server)
+May 28, 2023 19:03:28.768 [140063609637688] DEBUG - [NSB] Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+May 28, 2023 19:03:28.768 [140063609637688] DEBUG - [NSB] [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+May 28, 2023 19:03:28.768 [140063609637688] DEBUG - [NSB/HCl#13] HTTP requesting GET http://127.0.0.1:45287/system/notify/serverUpdated?host=127.0.0.1
+May 28, 2023 19:03:28.771 [140063618075448] DEBUG - Request: [127.0.0.1:55950 (Loopback)] GET /servers (3 live) #14 GZIP Token ()
+May 28, 2023 19:03:28.772 [140063648107320] DEBUG - Completed: [127.0.0.1:55950] 200 GET /servers (3 live) #14 GZIP 0ms 491 bytes
+May 28, 2023 19:03:28.774 [140063631395640] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:45287/system/notify/serverUpdated?host=127.0.0.1
+May 28, 2023 19:03:28.774 [140063609637688] DEBUG - [NSB] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+May 28, 2023 19:03:31.926 [140063613856568] DEBUG - DVR:Device: Discovering and refreshing all devices.
+May 28, 2023 19:03:31.926 [140063613856568] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+May 28, 2023 19:03:31.926 [140063613856568] DEBUG - [HCl#14] HTTP requesting POST http://127.0.0.1:32600/devices/discover
+May 28, 2023 19:03:32.342 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=92, type=RTM_DELADDR, flags=0x0
+May 28, 2023 19:03:32.342 [140063611747128] DEBUG - NetworkInterface: Netlink address message family=2, index=8731, flags=0x80
+May 28, 2023 19:03:32.342 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:32.342 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - Detected primary interface: 10.0.0.102
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - Network interfaces:
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (10.0.0.102) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 3 br-0d2c17ab45c5 (172.18.0.1) (02-42-49-EB-B1-33) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 26 br-dfc9b80cb405 (172.20.0.1) (02-42-C8-98-99-11) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 8731 vethe2b08df (169.254.232.181) (7A-64-FC-A2-D6-4C) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 333 br-d76ce439f1ce (172.23.0.1) (02-42-1B-FF-1B-40) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 113 br-288c89156704 (172.21.0.1) (02-42-F3-0E-1F-37) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 118 br-157eabd9e6c4 (172.22.0.1) (02-42-B9-34-54-86) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:5781:5463:4aff:da07) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:bdbe:702:ab13:6282) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:8a42:896f:807e:2eea) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:f6bf:f73c:5296:bea3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:6516:fd2d:89d3:1606) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:23be:6c0:17d0:9be7) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390::d7d3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:dab8:44c6:f05a:e89e) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:ca1f:66ff:fe36:3b98) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.343 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.798 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=92, type=RTM_DELADDR, flags=0x0
+May 28, 2023 19:03:32.798 [140063611747128] DEBUG - NetworkInterface: Netlink address message family=2, index=8727, flags=0x80
+May 28, 2023 19:03:32.798 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:32.798 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - Detected primary interface: 10.0.0.102
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - Network interfaces:
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (10.0.0.102) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 3 br-0d2c17ab45c5 (172.18.0.1) (02-42-49-EB-B1-33) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 8727 vethbc35309 (169.254.171.195) (96-FB-0B-3C-DD-16) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 26 br-dfc9b80cb405 (172.20.0.1) (02-42-C8-98-99-11) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 8731 vethe2b08df (169.254.232.181) (7A-64-FC-A2-D6-4C) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 333 br-d76ce439f1ce (172.23.0.1) (02-42-1B-FF-1B-40) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 113 br-288c89156704 (172.21.0.1) (02-42-F3-0E-1F-37) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 118 br-157eabd9e6c4 (172.22.0.1) (02-42-B9-34-54-86) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:5781:5463:4aff:da07) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:bdbe:702:ab13:6282) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:8a42:896f:807e:2eea) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:f6bf:f73c:5296:bea3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:6516:fd2d:89d3:1606) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:23be:6c0:17d0:9be7) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390::d7d3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:dab8:44c6:f05a:e89e) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:ca1f:66ff:fe36:3b98) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:32.799 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 7 browse sockets.
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 3)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 5)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 6)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 7)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=1), closing 7 browse sockets.
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 3)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 5)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 6)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 7)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 6 browse sockets.
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 239.255.255.250 (index: 0)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 1)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 2)
+May 28, 2023 19:03:32.799 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 239.255.255.250 (index: 3)
+May 28, 2023 19:03:32.800 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 239.255.255.250 (index: 4)
+May 28, 2023 19:03:32.800 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 239.255.255.250 (index: 5)
+May 28, 2023 19:03:32.800 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 239.255.255.250 (index: 6)
+May 28, 2023 19:03:32.800 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:32.900 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:32.900 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.000 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.000 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=92, type=RTM_DELADDR, flags=0x0
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG - NetworkInterface: Netlink address message family=2, index=8725, flags=0x80
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG - Detected primary interface: 10.0.0.102
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG - Network interfaces:
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (10.0.0.102) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 3 br-0d2c17ab45c5 (172.18.0.1) (02-42-49-EB-B1-33) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 8721 vethfb5e59d (169.254.47.55) (62-58-5C-0C-BC-49) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 8725 vethb1735ea (169.254.130.186) (C2-D3-07-F6-7B-4A) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 8727 vethbc35309 (169.254.171.195) (96-FB-0B-3C-DD-16) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 26 br-dfc9b80cb405 (172.20.0.1) (02-42-C8-98-99-11) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 8731 vethe2b08df (169.254.232.181) (7A-64-FC-A2-D6-4C) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 333 br-d76ce439f1ce (172.23.0.1) (02-42-1B-FF-1B-40) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 113 br-288c89156704 (172.21.0.1) (02-42-F3-0E-1F-37) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 118 br-157eabd9e6c4 (172.22.0.1) (02-42-B9-34-54-86) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:5781:5463:4aff:da07) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:bdbe:702:ab13:6282) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:8a42:896f:807e:2eea) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:f6bf:f73c:5296:bea3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:6516:fd2d:89d3:1606) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:23be:6c0:17d0:9be7) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390::d7d3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:dab8:44c6:f05a:e89e) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:ca1f:66ff:fe36:3b98) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.079 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.080 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.100 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.100 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.200 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.200 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.300 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.300 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.400 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.400 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.414 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=92, type=RTM_DELADDR, flags=0x0
+May 28, 2023 19:03:33.414 [140063611747128] DEBUG - NetworkInterface: Netlink address message family=2, index=8721, flags=0x80
+May 28, 2023 19:03:33.414 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:33.414 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:33.414 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:03:33.500 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.500 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.601 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.601 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.701 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.701 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.801 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.801 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:33.852 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=92, type=RTM_DELADDR, flags=0x0
+May 28, 2023 19:03:33.852 [140063611747128] DEBUG - NetworkInterface: Netlink address message family=2, index=8723, flags=0x80
+May 28, 2023 19:03:33.852 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:33.852 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - Detected primary interface: 10.0.0.102
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - Network interfaces:
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (10.0.0.102) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 3 br-0d2c17ab45c5 (172.18.0.1) (02-42-49-EB-B1-33) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 8721 vethfb5e59d (169.254.47.55) (62-58-5C-0C-BC-49) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 8723 vethaef0f48 (169.254.186.138) (46-B6-E4-72-E9-16) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 8725 vethb1735ea (169.254.130.186) (C2-D3-07-F6-7B-4A) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 8727 vethbc35309 (169.254.171.195) (96-FB-0B-3C-DD-16) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 26 br-dfc9b80cb405 (172.20.0.1) (02-42-C8-98-99-11) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 8731 vethe2b08df (169.254.232.181) (7A-64-FC-A2-D6-4C) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 333 br-d76ce439f1ce (172.23.0.1) (02-42-1B-FF-1B-40) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 113 br-288c89156704 (172.21.0.1) (02-42-F3-0E-1F-37) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 118 br-157eabd9e6c4 (172.22.0.1) (02-42-B9-34-54-86) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:5781:5463:4aff:da07) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:bdbe:702:ab13:6282) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:8a42:896f:807e:2eea) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:f6bf:f73c:5296:bea3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:6516:fd2d:89d3:1606) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:23be:6c0:17d0:9be7) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390::d7d3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:dab8:44c6:f05a:e89e) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:ca1f:66ff:fe36:3b98) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:33.853 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:33.901 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:33.901 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.001 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.001 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=92, type=RTM_DELADDR, flags=0x0
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG - NetworkInterface: Netlink address message family=2, index=8729, flags=0x80
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG - Detected primary interface: 10.0.0.102
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG - Network interfaces:
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG -  * 2 enp2s0 (10.0.0.102) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG -  * 3 br-0d2c17ab45c5 (172.18.0.1) (02-42-49-EB-B1-33) (loopback: 0)
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG -  * 8721 vethfb5e59d (169.254.47.55) (62-58-5C-0C-BC-49) (loopback: 0)
+May 28, 2023 19:03:34.031 [140063611747128] DEBUG -  * 8723 vethaef0f48 (169.254.186.138) (46-B6-E4-72-E9-16) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 8725 vethb1735ea (169.254.130.186) (C2-D3-07-F6-7B-4A) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 8727 vethbc35309 (169.254.171.195) (96-FB-0B-3C-DD-16) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 8729 veth1d6e062 (169.254.148.87) (36-E6-FE-9D-D7-AD) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 26 br-dfc9b80cb405 (172.20.0.1) (02-42-C8-98-99-11) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 8731 vethe2b08df (169.254.232.181) (7A-64-FC-A2-D6-4C) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 333 br-d76ce439f1ce (172.23.0.1) (02-42-1B-FF-1B-40) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 113 br-288c89156704 (172.21.0.1) (02-42-F3-0E-1F-37) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 118 br-157eabd9e6c4 (172.22.0.1) (02-42-B9-34-54-86) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:5781:5463:4aff:da07) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:bdbe:702:ab13:6282) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:8a42:896f:807e:2eea) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:f6bf:f73c:5296:bea3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:6516:fd2d:89d3:1606) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:23be:6c0:17d0:9be7) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390::d7d3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:dab8:44c6:f05a:e89e) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:ca1f:66ff:fe36:3b98) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.032 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.087 [140063633521464] DEBUG - Grabber: Cleaning up orphaned grabs.
+May 28, 2023 19:03:34.087 [140063633521464] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+May 28, 2023 19:03:34.087 [140063633521464] DEBUG - Activity: registered new activity 09b5789f-4149-4475-b91f-e4ef3e9054da - "Processing subscriptions"
+May 28, 2023 19:03:34.087 [140063633521464] DEBUG - Subscription: Scheduling subscriptions.
+May 28, 2023 19:03:34.087 [140063633521464] DEBUG - Subscription: Initialized 0 schedulers.
+May 28, 2023 19:03:34.087 [140063633521464] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+May 28, 2023 19:03:34.087 [140063633521464] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+May 28, 2023 19:03:34.087 [140063633521464] DEBUG - Activity: Ended activity 09b5789f-4149-4475-b91f-e4ef3e9054da.
+May 28, 2023 19:03:34.087 [140063633521464] DEBUG - Subscription: There are 0 active grabs at the end.
+May 28, 2023 19:03:34.088 [140063633521464] DEBUG - Activity: Ended activity 8823010b-5e65-4ce4-9f8a-510607c81d67.
+May 28, 2023 19:03:34.088 [140063633521464] DEBUG - Subscription: Refreshed all content in 1 ms.
+May 28, 2023 19:03:34.101 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.101 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.190 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=92, type=RTM_DELADDR, flags=0x0
+May 28, 2023 19:03:34.190 [140063611747128] DEBUG - NetworkInterface: Netlink address message family=2, index=8733, flags=0x80
+May 28, 2023 19:03:34.190 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:34.190 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - Detected primary interface: 10.0.0.102
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - Network interfaces:
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (10.0.0.102) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 3 br-0d2c17ab45c5 (172.18.0.1) (02-42-49-EB-B1-33) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 8721 vethfb5e59d (169.254.47.55) (62-58-5C-0C-BC-49) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 8723 vethaef0f48 (169.254.186.138) (46-B6-E4-72-E9-16) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 8725 vethb1735ea (169.254.130.186) (C2-D3-07-F6-7B-4A) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 8727 vethbc35309 (169.254.171.195) (96-FB-0B-3C-DD-16) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 8729 veth1d6e062 (169.254.148.87) (36-E6-FE-9D-D7-AD) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 26 br-dfc9b80cb405 (172.20.0.1) (02-42-C8-98-99-11) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 8731 vethe2b08df (169.254.232.181) (7A-64-FC-A2-D6-4C) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 8733 veth70bd648 (169.254.45.100) (DA-A5-87-27-42-1F) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 333 br-d76ce439f1ce (172.23.0.1) (02-42-1B-FF-1B-40) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 113 br-288c89156704 (172.21.0.1) (02-42-F3-0E-1F-37) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 118 br-157eabd9e6c4 (172.22.0.1) (02-42-B9-34-54-86) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:5781:5463:4aff:da07) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:bdbe:702:ab13:6282) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:8a42:896f:807e:2eea) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:f6bf:f73c:5296:bea3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:6516:fd2d:89d3:1606) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:23be:6c0:17d0:9be7) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390::d7d3) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:dab8:44c6:f05a:e89e) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG -  * 2 enp2s0 (2601:2c3:57f:4390:ca1f:66ff:fe36:3b98) (C8-1F-66-36-3B-98) (loopback: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Got notification of changed network (first change: 0)
+May 28, 2023 19:03:34.191 [140063611747128] DEBUG - NetworkService: Dispatch network change after two second delay.
+May 28, 2023 19:03:34.201 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.201 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.301 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.301 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.354 [140063631395640] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (2.4s) 200 response from POST http://127.0.0.1:32600/devices/discover
+May 28, 2023 19:03:34.402 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.402 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.502 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.502 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.602 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.602 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.702 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.702 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.802 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.802 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:34.902 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:34.902 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.002 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.002 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.002 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 8 browse sockets.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 4)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 6)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 7)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 8)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=1), closing 8 browse sockets.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 4)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 6)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 7)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 8)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 7 browse sockets.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 239.255.255.250 (index: 0)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 1)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 239.255.255.250 (index: 2)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 3)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 239.255.255.250 (index: 4)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 239.255.255.250 (index: 5)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 239.255.255.250 (index: 6)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 239.255.255.250 (index: 7)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 9 browse sockets.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 6)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 7)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 8)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 9)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 10)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=1), closing 9 browse sockets.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 6)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 7)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 8)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 9)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 10)
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 8 browse sockets.
+May 28, 2023 19:03:35.003 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 239.255.255.250 (index: 0)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 1)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 239.255.255.250 (index: 2)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 239.255.255.250 (index: 3)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 239.255.255.250 (index: 4)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 5)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 239.255.255.250 (index: 6)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 239.255.255.250 (index: 7)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 239.255.255.250 (index: 8)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 239.255.255.250 (index: 9)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 11 browse sockets.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.186.138 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 6)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 7)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 8)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 9)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 10)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 11)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=1), closing 11 browse sockets.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.186.138 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 6)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 7)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 8)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 9)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 10)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 11)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 10 browse sockets.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 239.255.255.250 (index: 0)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 1)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 239.255.255.250 (index: 2)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.186.138 on broadcast address 239.255.255.250 (index: 3)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 239.255.255.250 (index: 4)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 239.255.255.250 (index: 5)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 6)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 239.255.255.250 (index: 7)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 239.255.255.250 (index: 8)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 239.255.255.250 (index: 9)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 239.255.255.250 (index: 10)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 12 browse sockets.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.186.138 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 6)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.148.87 on broadcast address 169.254.255.255 (index: 7)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 8)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 9)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 10)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 11)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 12)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=1), closing 12 browse sockets.
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:35.004 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.186.138 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 6)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.148.87 on broadcast address 169.254.255.255 (index: 7)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 8)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 9)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 10)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 11)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 12)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 11 browse sockets.
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 239.255.255.250 (index: 0)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 1)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 239.255.255.250 (index: 2)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.186.138 on broadcast address 239.255.255.250 (index: 3)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 239.255.255.250 (index: 4)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 239.255.255.250 (index: 5)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.148.87 on broadcast address 239.255.255.250 (index: 6)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 7)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 239.255.255.250 (index: 8)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 239.255.255.250 (index: 9)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 239.255.255.250 (index: 10)
+May 28, 2023 19:03:35.005 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 239.255.255.250 (index: 11)
+May 28, 2023 19:03:35.005 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.105 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.105 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.205 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.205 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.305 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.305 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.405 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.405 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.506 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.506 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.606 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.606 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.706 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.706 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.806 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.806 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:35.906 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:35.906 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.006 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.006 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.106 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.106 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.207 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.207 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.307 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.307 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.407 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.407 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.507 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.507 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.607 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.607 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.707 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.707 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.807 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.807 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:36.908 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:36.908 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.008 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.008 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.108 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.108 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.163 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:03:37.163 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8723, flags=0x11043, change=0x0
+May 28, 2023 19:03:37.163 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:37.163 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:37.163 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:03:37.163 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:03:37.163 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8721, flags=0x11043, change=0x0
+May 28, 2023 19:03:37.163 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:37.163 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:37.164 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:03:37.208 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.208 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.308 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.308 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.408 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.408 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.508 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.508 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.609 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.609 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.675 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:03:37.675 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8729, flags=0x11043, change=0x0
+May 28, 2023 19:03:37.675 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:37.675 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:37.675 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:03:37.675 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:03:37.675 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8727, flags=0x11043, change=0x0
+May 28, 2023 19:03:37.675 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:37.675 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8731, flags=0x11043, change=0x0
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8725, flags=0x11043, change=0x0
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:37.676 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:03:37.709 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.709 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.809 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.809 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:37.909 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:37.909 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.009 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.009 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.109 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.109 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.187 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:03:38.187 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8733, flags=0x11043, change=0x0
+May 28, 2023 19:03:38.187 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:03:38.187 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:03:38.187 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:03:38.209 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.209 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.310 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.310 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.410 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.410 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.510 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.510 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.610 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.610 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.710 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.710 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.810 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.810 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:38.911 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:38.911 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.011 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.011 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.111 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.111 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.211 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.211 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.311 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.311 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.411 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.411 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.511 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.511 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.612 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.612 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.712 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.712 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.812 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.812 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:39.912 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:39.912 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.012 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.012 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.112 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.112 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.212 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.212 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.313 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.313 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.413 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.413 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.513 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.513 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.613 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.613 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.713 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.713 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.813 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.813 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:40.913 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:40.913 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.014 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.014 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.114 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.114 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.214 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.214 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.314 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.314 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.414 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.414 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.514 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.514 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.614 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.615 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.715 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.715 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.815 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.815 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:41.915 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:41.915 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.015 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.015 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.115 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.115 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.215 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.215 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.315 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.315 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.416 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.416 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.516 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.516 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.616 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.616 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.716 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.716 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.816 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.816 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:42.916 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:42.916 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.016 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.016 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.117 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.117 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.217 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.217 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.317 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.317 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.417 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.417 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.517 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.517 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.617 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.617 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.717 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.717 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.818 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.818 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:43.918 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:43.918 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.018 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.018 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.118 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.118 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.218 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.218 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.318 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.318 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.418 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.418 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.519 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.519 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.619 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.619 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.719 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.719 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.819 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.819 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:44.919 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:44.919 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.019 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.019 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.119 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.119 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.220 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.220 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.320 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.320 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.420 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.420 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.520 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.520 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.620 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.620 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.720 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.720 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.820 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.821 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:45.921 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:45.921 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.021 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.021 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.121 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.121 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.221 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.221 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.321 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.321 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.421 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.421 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.522 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.522 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.622 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.622 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.722 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.722 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.822 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.822 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:46.922 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:46.922 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.022 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.022 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.122 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.122 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.223 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.223 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.323 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.323 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.423 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - Network change for advertiser.
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 13 browse sockets.
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.186.138 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 6)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.148.87 on broadcast address 169.254.255.255 (index: 7)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 8)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 9)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.45.100 on broadcast address 169.254.255.255 (index: 10)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 11)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 12)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 13)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=1), closing 13 browse sockets.
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 10.0.0.255 (index: 1)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 172.18.255.255 (index: 2)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 169.254.255.255 (index: 3)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.186.138 on broadcast address 169.254.255.255 (index: 4)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 169.254.255.255 (index: 5)
+May 28, 2023 19:03:47.423 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 169.254.255.255 (index: 6)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.148.87 on broadcast address 169.254.255.255 (index: 7)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 172.20.255.255 (index: 8)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 169.254.255.255 (index: 9)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.45.100 on broadcast address 169.254.255.255 (index: 10)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 172.23.255.255 (index: 11)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 172.21.255.255 (index: 12)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 172.22.255.255 (index: 13)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Network change for browser (polled=0), closing 12 browse sockets.
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 10.0.0.102 on broadcast address 239.255.255.250 (index: 0)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.18.0.1 on broadcast address 239.255.255.250 (index: 1)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.47.55 on broadcast address 239.255.255.250 (index: 2)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.186.138 on broadcast address 239.255.255.250 (index: 3)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.130.186 on broadcast address 239.255.255.250 (index: 4)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.171.195 on broadcast address 239.255.255.250 (index: 5)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.148.87 on broadcast address 239.255.255.250 (index: 6)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.20.0.1 on broadcast address 239.255.255.250 (index: 7)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.232.181 on broadcast address 239.255.255.250 (index: 8)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 169.254.45.100 on broadcast address 239.255.255.250 (index: 9)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.23.0.1 on broadcast address 239.255.255.250 (index: 10)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.21.0.1 on broadcast address 239.255.255.250 (index: 11)
+May 28, 2023 19:03:47.424 [140063609637688] DEBUG - NetworkService: Browsing on interface 172.22.0.1 on broadcast address 239.255.255.250 (index: 12)
+May 28, 2023 19:03:47.424 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.524 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.524 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.624 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.624 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.724 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.724 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.824 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.824 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:47.925 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:47.925 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.025 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.025 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.125 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.125 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.225 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.225 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.325 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.325 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.425 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.425 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.525 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.526 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.626 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.626 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.726 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.726 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.826 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.826 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:48.926 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:48.926 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.026 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.026 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.126 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.126 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.226 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.226 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.327 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.327 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.427 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.427 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.527 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.527 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.627 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.627 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.727 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.727 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.827 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.827 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:49.927 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:49.927 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.028 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.028 [140063609637688] ERROR - [NSB] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.128 [140063609637688] INFO - [NSB] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.128 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.228 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.228 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.328 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.328 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.428 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.428 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.528 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.528 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.628 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.629 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.729 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.729 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.829 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.829 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:50.929 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:50.929 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:51.029 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:51.029 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:51.129 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:51.129 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:51.229 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:51.229 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:51.330 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:03:51.330 [140063609637688] ERROR - [NSB/SSDP] Error in browser handle read: 125 (Operation canceled) socket=-1
+May 28, 2023 19:03:51.430 [140063609637688] INFO - [NSB/SSDP] Abandoning browse socket, it was closed.
+May 28, 2023 19:05:21.829 [140063636691768] DEBUG - BPQ: [Starting] -> [Processing]
+May 28, 2023 19:05:21.829 [140063636691768] DEBUG - BPQ: creating new background playqueue
+May 28, 2023 19:05:21.830 [140063636691768] DEBUG - BPQ: generating queue items from 0 generator(s)
+May 28, 2023 19:05:21.830 [140063636691768] DEBUG - BPQ: generated 0 item(s) for queue
+May 28, 2023 19:05:21.830 [140063636691768] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+May 28, 2023 19:05:21.830 [140063636691768] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+May 28, 2023 19:05:21.830 [140063636691768] DEBUG - BPQ: [Processing] -> [Idle]
+May 28, 2023 19:05:23.754 [140063618075448] DEBUG - Request: [127.0.0.1:41786 (Loopback)] GET /servers (2 live) #19 GZIP Token ()
+May 28, 2023 19:05:23.754 [140063650216760] DEBUG - Completed: [127.0.0.1:41786] 200 GET /servers (2 live) #19 GZIP 0ms 491 bytes
+May 28, 2023 19:05:23.756 [140063618075448] DEBUG - Request: [127.0.0.1:41802 (Loopback)] GET / (2 live) #1c GZIP Token ()
+May 28, 2023 19:05:23.756 [140063648107320] DEBUG - Completed: [127.0.0.1:41802] 200 GET / (2 live) #1c GZIP 0ms 2158 bytes
+May 28, 2023 19:05:23.758 [140063618075448] DEBUG - Request: [127.0.0.1:41804 (Loopback)] GET /library/sections (2 live) #1e GZIP Token ()
+May 28, 2023 19:05:23.758 [140063648107320] DEBUG - Completed: [127.0.0.1:41804] 200 GET /library/sections (2 live) #1e GZIP 0ms 403 bytes
+May 28, 2023 19:05:23.760 [140063618075448] DEBUG - Request: [127.0.0.1:41818 (Loopback)] GET /channels/all (2 live) #20 GZIP Token ()
+May 28, 2023 19:05:23.760 [140063648107320] DEBUG - Completed: [127.0.0.1:41818] 200 GET /channels/all (2 live) #20 GZIP 0ms 387 bytes
+May 28, 2023 19:05:23.762 [140063618075448] DEBUG - Request: [127.0.0.1:41826 (Loopback)] GET /library/sections (2 live) #22 GZIP Token ()
+May 28, 2023 19:05:23.762 [140063648107320] DEBUG - Completed: [127.0.0.1:41826] 200 GET /library/sections (2 live) #22 GZIP 0ms 403 bytes
+May 28, 2023 19:05:23.764 [140063618075448] DEBUG - Request: [127.0.0.1:41830 (Loopback)] GET /channels/all (2 live) #24 GZIP Token ()
+May 28, 2023 19:05:23.764 [140063648107320] DEBUG - Completed: [127.0.0.1:41830] 200 GET /channels/all (2 live) #24 GZIP 0ms 387 bytes
+May 28, 2023 19:10:15.343 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.343 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8734, flags=0x1002, change=0xffffffff
+May 28, 2023 19:10:15.343 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.343 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x1002, change=0xffffffff
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8734, flags=0x1002, change=0x0
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.344 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x1002, change=0x0
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x1002, change=0x0
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.345 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x1002, change=0x100
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1776, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=5, flags=0x1003, change=0x0
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.346 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x1002, change=0x0
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x1003, change=0x1
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x1003, change=0x0
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.347 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.348 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.365 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.365 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8734, flags=0x11003, change=0x1
+May 28, 2023 19:10:15.365 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.365 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.366 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.366 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.366 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8734, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.366 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.366 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.367 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1768, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=5, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.368 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.369 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.370 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.373 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.373 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8734, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.373 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.373 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.374 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.470 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.470 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8734, flags=0x1002, change=0x41
+May 28, 2023 19:10:15.470 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.470 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.490 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.490 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=608, type=RTM_DELLINK, flags=0x0
+May 28, 2023 19:10:15.490 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8734, flags=0x1002, change=0xffffffff
+May 28, 2023 19:10:15.490 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.490 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x1003, change=0x0
+May 28, 2023 19:10:15.490 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.490 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x1003, change=0x0
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.491 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.492 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.493 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.512 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.512 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.512 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.512 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.512 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:15.512 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:15.512 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x11043, change=0x0
+May 28, 2023 19:10:15.512 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:15.512 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:15.513 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:16.395 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1768, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:16.395 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=5, flags=0x11043, change=0x0
+May 28, 2023 19:10:16.395 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:16.395 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:16.395 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:18.596 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:18.596 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x1003, change=0x0
+May 28, 2023 19:10:18.596 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:18.596 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:18.621 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:18.621 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1692, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:18.621 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x1003, change=0x0
+May 28, 2023 19:10:18.621 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:18.621 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:18.622 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:18.622 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1368, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:18.622 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8734, flags=0x1002, change=0xffffffff
+May 28, 2023 19:10:18.622 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:18.622 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:18.622 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:18.624 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1684, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:18.624 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x1002, change=0x41
+May 28, 2023 19:10:18.624 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:18.624 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:18.630 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:18.630 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:18.630 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x1002, change=0x0
+May 28, 2023 19:10:18.630 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:18.630 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8734, flags=0x1002, change=0xffffffff
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=400, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x1002, change=0x0
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=104, type=RTM_DELLINK, flags=0x0
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=7, type=1, index=8735, flags=0x1002, change=0x0
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1776, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=5, flags=0x1043, change=0x0
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:18.631 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:18.632 [140063611747128] DEBUG - Network change notification but nothing changed.
+May 28, 2023 19:10:18.632 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=592, type=RTM_DELLINK, flags=0x0
+May 28, 2023 19:10:18.632 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=8735, flags=0x1002, change=0xffffffff
+May 28, 2023 19:10:19.659 [140063611747128] DEBUG - NetworkInterface: received Netlink message len=1768, type=RTM_NEWLINK, flags=0x0
+May 28, 2023 19:10:19.659 [140063611747128] DEBUG - NetworkInterface: Netlink information message family=0, type=1, index=5, flags=0x1003, change=0x0
+May 28, 2023 19:10:19.659 [140063611747128] DEBUG - Network change.
+May 28, 2023 19:10:19.659 [140063611747128] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 28, 2023 19:10:19.659 [140063611747128] DEBUG - Network change notification but nothing changed.

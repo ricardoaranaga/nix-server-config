@@ -1,0 +1,1195 @@
+230527 04:42:20 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  4:42:20 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  4:42:20 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  4:42:20 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  4:42:20 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  4:42:20 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  4:42:20 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  4:42:20 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  4:42:20 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  4:42:20 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  4:42:20 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  4:42:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  4:42:20 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  4:42:20 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  4:42:20 0 [Note] InnoDB: 10.6.13 started; log sequence number 42204; transaction id 14
+2023-05-27  4:42:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  4:42:20 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  4:42:20 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  4:42:20
+2023-05-27  4:42:20 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  4:42:20 0 [Note] Server socket created on IP: '::'.
+2023-05-27  4:42:20 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  4:42:21 4 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:21 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  4:42:21 7 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:22 8 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:22 9 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:23 10 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:23 11 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:24 12 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:24 13 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:25 14 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:25 15 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:26 16 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:26 17 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:27 18 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:27 19 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:28 20 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:28 21 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:29 22 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:29 23 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:31 24 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:31 25 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:32 26 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:32 27 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:33 28 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:33 29 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:34 30 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:34 31 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:35 32 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:35 33 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:36 34 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:36 35 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:37 36 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:37 37 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:38 38 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:38 39 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:39 40 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:39 41 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:40 42 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:41 43 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:41 44 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:42 45 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:42 46 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:43 47 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:43 48 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:44 49 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:44 50 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:45 51 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:45 52 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:46 53 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:46 54 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:47 55 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:47 56 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:48 57 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:48 58 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:49 59 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:49 60 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:50 61 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:51 62 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:52 63 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:52 64 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:53 65 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:53 66 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:54 67 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:55 68 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:55 69 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:56 70 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:56 71 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:57 72 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:57 73 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:58 74 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:58 75 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:59 76 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:42:59 77 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:00 78 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:00 79 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:01 80 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:02 81 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:03 82 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:03 83 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:04 84 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:04 85 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:05 86 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:05 87 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:06 88 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:06 89 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:07 90 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:07 91 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:08 92 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:08 93 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:09 94 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:09 95 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:10 96 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:10 97 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:11 98 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:11 99 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:14 100 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:15 101 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:15 102 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:16 103 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:16 104 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:17 105 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:17 106 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:18 107 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:18 108 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:19 109 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:19 110 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:20 111 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:20 112 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:21 113 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:21 114 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:22 115 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:22 116 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:23 117 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:23 118 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:28 119 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:28 120 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:29 121 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:29 122 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:30 123 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:30 124 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:31 125 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:31 126 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:32 127 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:32 128 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:33 129 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:33 130 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:34 131 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:34 132 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:35 133 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:35 134 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:36 135 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:36 136 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:37 137 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:44 138 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:45 139 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:45 140 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:46 141 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:46 142 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:47 143 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:47 144 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:48 145 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:48 146 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:49 147 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:49 148 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:50 149 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:50 150 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:51 151 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:51 152 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:52 153 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:52 154 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:53 155 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:43:53 156 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:07 157 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:08 158 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:08 159 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:09 160 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:09 161 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:10 162 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:10 163 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:11 164 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:11 165 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:12 166 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:12 167 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:13 168 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:13 169 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:14 170 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:14 171 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:15 172 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:15 173 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:16 174 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:16 175 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:43 176 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:43 177 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:44 178 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:44 179 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:45 180 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:45 181 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:46 182 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:46 183 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:47 184 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:47 185 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:48 186 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:48 187 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:49 188 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:49 189 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:50 190 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:50 191 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:51 192 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:51 193 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:44:52 194 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:45:28 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  4:45:28 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  4:45:28 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  4:45:28 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  4:45:28 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  4:45:28
+2023-05-27  4:45:28 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  4:45:28 0 [Note] InnoDB: Shutdown completed; log sequence number 42616; transaction id 15
+2023-05-27  4:45:28 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 04:45:28 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 04:46:04 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  4:46:04 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  4:46:04 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  4:46:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  4:46:04 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  4:46:04 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  4:46:04 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  4:46:04 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  4:46:04 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  4:46:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  4:46:05 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  4:46:05 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  4:46:05 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  4:46:05 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  4:46:05 0 [Note] InnoDB: 10.6.13 started; log sequence number 42616; transaction id 16
+2023-05-27  4:46:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  4:46:05 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  4:46:05 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  4:46:05
+2023-05-27  4:46:05 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  4:46:05 0 [Note] Server socket created on IP: '::'.
+2023-05-27  4:46:05 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  4:46:05 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  4:46:16 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  4:46:16 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  4:46:16 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  4:46:16 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  4:46:16 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  4:46:16
+230527 04:46:29 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  4:46:29 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 394
+2023-05-27  4:46:29 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  4:46:29 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  4:46:29 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  4:46:29 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  4:46:29 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  4:46:29 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  4:46:29 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  4:46:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  4:46:29 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=42616,42616
+2023-05-27  4:46:29 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  4:46:29 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  4:46:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  4:46:29 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  4:46:29 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  4:46:29 0 [Note] InnoDB: 10.6.13 started; log sequence number 42628; transaction id 16
+2023-05-27  4:46:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  4:46:29 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  4:46:29 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  4:46:29
+2023-05-27  4:46:29 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  4:46:29 0 [Note] Server socket created on IP: '::'.
+2023-05-27  4:46:29 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  4:46:30 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  4:46:35 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  4:46:35 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  4:46:35 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  4:46:35 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  4:46:35 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  4:46:35
+2023-05-27  4:46:35 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  4:46:35 0 [Note] InnoDB: Shutdown completed; log sequence number 42652; transaction id 17
+2023-05-27  4:46:35 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 04:46:35 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 04:48:59 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  4:48:59 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  4:48:59 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  4:48:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  4:48:59 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  4:48:59 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  4:48:59 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  4:48:59 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  4:48:59 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  4:48:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  4:48:59 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  4:48:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  4:48:59 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  4:48:59 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  4:48:59 0 [Note] InnoDB: 10.6.13 started; log sequence number 42652; transaction id 16
+2023-05-27  4:48:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  4:48:59 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  4:48:59 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  4:48:59
+2023-05-27  4:48:59 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  4:48:59 0 [Note] Server socket created on IP: '::'.
+2023-05-27  4:48:59 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  4:49:00 4 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:00 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  4:49:00 7 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:01 8 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:01 9 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:02 10 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:02 11 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:03 12 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:03 13 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:04 14 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:04 15 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:05 16 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:05 17 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:06 18 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:06 19 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:07 20 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:07 21 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:08 22 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:08 23 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:09 24 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:10 25 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:10 26 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:11 27 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:11 28 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:12 29 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:12 30 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:13 31 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:13 32 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:14 33 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:14 34 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:15 35 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:15 36 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:16 37 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:16 38 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:17 39 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:17 40 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:18 41 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:18 42 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:20 43 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:20 44 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:21 45 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:21 46 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:22 47 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:22 48 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:23 49 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:23 50 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:24 51 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:24 52 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:25 53 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:25 54 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:26 55 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:26 56 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:27 57 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:27 58 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:28 59 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:28 60 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:29 61 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:31 62 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:31 63 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:32 64 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:32 65 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:33 66 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:33 67 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:34 68 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:34 69 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:35 70 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:35 71 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:36 72 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:36 73 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:37 74 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:37 75 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:38 76 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:38 77 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:39 78 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:39 79 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:40 80 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:41 81 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:41 82 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:42 83 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:42 84 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:43 85 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:43 86 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:44 87 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:44 88 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:45 89 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:45 90 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:46 91 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:46 92 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:47 93 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:47 94 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:48 95 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:48 96 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:49 97 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:49 98 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:50 99 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:51 100 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:52 101 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:52 102 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:53 103 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:53 104 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:54 105 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:54 106 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:55 107 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:55 108 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:56 109 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:56 110 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:57 111 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:57 112 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:58 113 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:58 114 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:59 115 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:49:59 116 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:00 117 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:00 118 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:02 119 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:03 120 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:03 121 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:04 122 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:04 123 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:05 124 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:05 125 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:06 126 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:06 127 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:07 128 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:07 129 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:08 130 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:08 131 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:09 132 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:09 133 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:10 134 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:10 135 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:11 136 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:11 137 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:14 138 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:15 139 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:15 140 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:16 141 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:16 142 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:17 143 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:17 144 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:18 145 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:18 146 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:19 147 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:19 148 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:20 149 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:20 150 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:21 151 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:21 152 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:22 153 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:22 154 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:23 155 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:23 156 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:28 157 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:28 158 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:29 159 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:29 160 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:30 161 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:30 162 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:31 163 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:31 164 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:32 165 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:32 166 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:33 167 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:33 168 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:34 169 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:34 170 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:35 171 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:35 172 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:36 173 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:36 174 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:37 175 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:44 176 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:45 177 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:45 178 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:46 179 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:46 180 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:47 181 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:47 182 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:48 183 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:48 184 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:49 185 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:49 186 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:50 187 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:50 188 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:51 189 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:51 190 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:52 191 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:52 192 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:53 193 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:50:53 194 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:07 195 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:08 196 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:08 197 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:09 198 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:09 199 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:10 200 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:10 201 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:11 202 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:11 203 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:12 204 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:12 205 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:13 206 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:13 207 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:14 208 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:14 209 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:15 210 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:15 211 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:16 212 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:16 213 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:43 214 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:43 215 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:44 216 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:44 217 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:45 218 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:45 219 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:46 220 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:46 221 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:47 222 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:47 223 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:48 224 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:48 225 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:49 226 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:49 227 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:50 228 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:50 229 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:51 230 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:51 231 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:52 232 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:54 233 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:55 234 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:55 235 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:56 236 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:56 237 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:57 238 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:57 239 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:58 240 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:58 241 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:59 242 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:51:59 243 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:00 244 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:00 245 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:01 246 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:01 247 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:02 248 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:02 249 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:03 250 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:03 251 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:05 252 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:05 253 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:06 254 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:06 255 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:07 256 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:07 257 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:08 258 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:08 259 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:09 260 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:09 261 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:10 262 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:10 263 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:11 264 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:11 265 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:12 266 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:12 267 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:13 268 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:13 269 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:14 270 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:15 271 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:16 272 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:16 273 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:17 274 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:17 275 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:18 276 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:18 277 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:19 278 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:19 279 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:20 280 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:20 281 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:21 282 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:21 283 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:22 284 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:22 285 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:23 286 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:23 287 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:24 288 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:24 289 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:26 290 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:27 291 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:27 292 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:28 293 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:28 294 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:29 295 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:29 296 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:30 297 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:30 298 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:31 299 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:31 300 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:32 301 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:32 302 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:33 303 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:33 304 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:34 305 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:34 306 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:35 307 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:35 308 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:37 309 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:37 310 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:38 311 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:38 312 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:39 313 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:39 314 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:40 315 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:40 316 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:41 317 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:41 318 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:42 319 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:42 320 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:43 321 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:43 322 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:44 323 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:44 324 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:45 325 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:45 326 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:46 327 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:47 328 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:48 329 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:48 330 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:49 331 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:49 332 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:50 333 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:50 334 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:51 335 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:51 336 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:52 337 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:52 338 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:53 339 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:53 340 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:54 341 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:54 342 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:55 343 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:55 344 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:56 345 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:56 346 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:58 347 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:58 348 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:59 349 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:52:59 350 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:53:00 351 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:53:00 352 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:53:01 353 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:53:01 354 [Warning] Access denied for user 'authelia'@'auth.startup_net' (using password: YES)
+2023-05-27  4:53:02 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  4:53:02 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  4:53:02 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  4:53:02 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  4:53:02 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  4:53:02
+2023-05-27  4:53:02 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  4:53:02 0 [Note] InnoDB: Shutdown completed; log sequence number 42664; transaction id 17
+2023-05-27  4:53:02 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 04:53:02 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 04:54:55 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  4:54:55 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  4:54:55 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  4:54:55 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  4:54:55 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  4:54:55 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  4:54:55 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  4:54:55 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  4:54:55 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  4:54:55 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  4:54:55 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  4:54:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  4:54:55 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  4:54:55 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  4:54:55 0 [Note] InnoDB: 10.6.13 started; log sequence number 42664; transaction id 16
+2023-05-27  4:54:55 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  4:54:55 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  4:54:55 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  4:54:55
+2023-05-27  4:54:55 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  4:54:55 0 [Note] Server socket created on IP: '::'.
+2023-05-27  4:54:55 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  4:54:56 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  4:54:57 4 [Warning] Aborted connection 4 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:54:58 7 [Warning] Aborted connection 7 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:54:59 8 [Warning] Aborted connection 8 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:55:00 9 [Warning] Aborted connection 9 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:55:02 10 [Warning] Aborted connection 10 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:55:04 11 [Warning] Aborted connection 11 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:55:08 12 [Warning] Aborted connection 12 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:55:15 13 [Warning] Aborted connection 13 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:55:28 14 [Warning] Aborted connection 14 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:55:54 15 [Warning] Aborted connection 15 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:56:46 16 [Warning] Aborted connection 16 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got an error reading communication packets)
+2023-05-27  4:57:24 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  4:57:24 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  4:57:24 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  4:57:24 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  4:57:24 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  4:57:24
+2023-05-27  4:57:24 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  4:57:24 0 [Note] InnoDB: Shutdown completed; log sequence number 1382455; transaction id 1001
+2023-05-27  4:57:24 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 04:57:24 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 04:58:21 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  4:58:21 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  4:58:21 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  4:58:21 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  4:58:21 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  4:58:21 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  4:58:21 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  4:58:21 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  4:58:21 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  4:58:21 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  4:58:21 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  4:58:21 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  4:58:21 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  4:58:21 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  4:58:21 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382455; transaction id 1002
+2023-05-27  4:58:21 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  4:58:21 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  4:58:21 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  4:58:21 0 [Note] Server socket created on IP: '::'.
+2023-05-27  4:58:21 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  4:58:21 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  4:58:21
+2023-05-27  4:58:22 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  5:01:48 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  5:01:48 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  5:01:48 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  5:01:48 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  5:01:48 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  5:01:48
+230527 05:05:58 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  5:05:58 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 395
+2023-05-27  5:05:58 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  5:05:58 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  5:05:58 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  5:05:58 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  5:05:58 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  5:05:58 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  5:05:58 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  5:05:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  5:05:58 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1382455,1382455
+2023-05-27  5:05:59 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000012', position 38105
+2023-05-27  5:05:59 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  5:05:59 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:05:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  5:05:59 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  5:05:59 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  5:05:59 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382467; transaction id 1002
+2023-05-27  5:05:59 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  5:05:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  5:05:59 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  5:05:59 0 [Note] Server socket created on IP: '::'.
+2023-05-27  5:05:59 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  5:05:59
+2023-05-27  5:05:59 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  5:05:59 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  5:06:25 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  5:06:25 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  5:06:25 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  5:06:25 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  5:06:25 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  5:06:25
+2023-05-27  5:06:26 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:06:26 0 [Note] InnoDB: Shutdown completed; log sequence number 1382491; transaction id 1005
+2023-05-27  5:06:26 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 05:06:26 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 05:07:21 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  5:07:21 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  5:07:21 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  5:07:21 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  5:07:21 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  5:07:21 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  5:07:21 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  5:07:21 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  5:07:21 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  5:07:21 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  5:07:21 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  5:07:21 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  5:07:21 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  5:07:21 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  5:07:21 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382491; transaction id 1002
+2023-05-27  5:07:21 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  5:07:21 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  5:07:21 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  5:07:21 0 [Note] Server socket created on IP: '::'.
+2023-05-27  5:07:21 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  5:07:21 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  5:07:21
+2023-05-27  5:07:22 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  5:07:47 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  5:07:47 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  5:07:47 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  5:07:47 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  5:07:47 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  5:07:47
+230527 05:08:24 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  5:08:24 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 394
+2023-05-27  5:08:24 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  5:08:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  5:08:24 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  5:08:24 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  5:08:24 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  5:08:24 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  5:08:24 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  5:08:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  5:08:24 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1382491,1382491
+2023-05-27  5:08:24 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000012', position 38105
+2023-05-27  5:08:24 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  5:08:24 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:08:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  5:08:24 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  5:08:24 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  5:08:24 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382503; transaction id 1002
+2023-05-27  5:08:24 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  5:08:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  5:08:24 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  5:08:24 0 [Note] Server socket created on IP: '::'.
+2023-05-27  5:08:24 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  5:08:24 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  5:08:24
+2023-05-27  5:08:25 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  5:09:04 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  5:09:04 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  5:09:04 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  5:09:04 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  5:09:04 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  5:09:04
+2023-05-27  5:09:05 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:09:05 0 [Note] InnoDB: Shutdown completed; log sequence number 1382527; transaction id 1005
+2023-05-27  5:09:05 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 05:09:05 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 05:15:39 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  5:15:39 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  5:15:39 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  5:15:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  5:15:39 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  5:15:39 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  5:15:39 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  5:15:39 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  5:15:39 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  5:15:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  5:15:39 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  5:15:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  5:15:39 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  5:15:39 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  5:15:39 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382527; transaction id 1002
+2023-05-27  5:15:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  5:15:39 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  5:15:39 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  5:15:39 0 [Note] Server socket created on IP: '::'.
+2023-05-27  5:15:39 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  5:15:39 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  5:15:39
+2023-05-27  5:15:40 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  5:17:09 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  5:17:09 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  5:17:09 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  5:17:09 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  5:17:09 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  5:17:09
+2023-05-27  5:17:09 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:17:09 0 [Note] InnoDB: Shutdown completed; log sequence number 1382539; transaction id 1005
+2023-05-27  5:17:09 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 05:17:09 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 05:17:14 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  5:17:14 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 391
+2023-05-27  5:17:14 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  5:17:14 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  5:17:14 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  5:17:14 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  5:17:14 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  5:17:14 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  5:17:14 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  5:17:14 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  5:17:14 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  5:17:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  5:17:14 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  5:17:14 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  5:17:14 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382539; transaction id 1002
+2023-05-27  5:17:14 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  5:17:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  5:17:14 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  5:17:14 0 [Note] Server socket created on IP: '::'.
+2023-05-27  5:17:14 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  5:17:14
+2023-05-27  5:17:14 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  5:17:15 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  5:18:56 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  5:18:56 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  5:18:56 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  5:18:56 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  5:18:56 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  5:18:56
+2023-05-27  5:18:56 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:18:56 0 [Note] InnoDB: Shutdown completed; log sequence number 1382551; transaction id 1005
+2023-05-27  5:18:56 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 05:18:56 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 05:19:25 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  5:19:25 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  5:19:25 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  5:19:25 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  5:19:25 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  5:19:25 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  5:19:25 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  5:19:25 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  5:19:25 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  5:19:25 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  5:19:25 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  5:19:25 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  5:19:25 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  5:19:25 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  5:19:25 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382551; transaction id 1002
+2023-05-27  5:19:25 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  5:19:25 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  5:19:25 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  5:19:25 0 [Note] Server socket created on IP: '::'.
+2023-05-27  5:19:25 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  5:19:25 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  5:19:25
+2023-05-27  5:19:26 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  5:19:37 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  5:19:37 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  5:19:37 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  5:19:37 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  5:19:37 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  5:19:37
+2023-05-27  5:19:37 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:19:37 0 [Note] InnoDB: Shutdown completed; log sequence number 1382563; transaction id 1005
+2023-05-27  5:19:37 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 05:19:37 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 05:19:57 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  5:19:57 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  5:19:57 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  5:19:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  5:19:57 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  5:19:57 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  5:19:57 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  5:19:57 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  5:19:57 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  5:19:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  5:19:57 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  5:19:57 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  5:19:57 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  5:19:57 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  5:19:57 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382563; transaction id 1002
+2023-05-27  5:19:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  5:19:57 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  5:19:57 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  5:19:57 0 [Note] Server socket created on IP: '::'.
+2023-05-27  5:19:57 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  5:19:57
+2023-05-27  5:19:57 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  5:19:57 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+230527 05:21:11 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  5:21:11 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 394
+2023-05-27  5:21:11 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  5:21:11 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  5:21:11 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  5:21:11 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  5:21:11 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  5:21:11 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  5:21:11 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  5:21:11 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  5:21:11 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1382563,1382563
+2023-05-27  5:21:11 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000012', position 38105
+2023-05-27  5:21:11 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  5:21:11 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:21:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  5:21:11 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  5:21:11 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  5:21:11 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382575; transaction id 1002
+2023-05-27  5:21:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  5:21:11 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2023-05-27  5:21:11 0 [Note] Starting table crash recovery...
+2023-05-27  5:21:11 0 [Note] Crash table recovery finished.
+2023-05-27  5:21:11 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  5:21:11 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  5:21:11 0 [Note] Server socket created on IP: '::'.
+2023-05-27  5:21:11 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  5:21:11 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  5:21:11
+2023-05-27  5:21:11 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  5:21:48 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  5:21:48 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  5:21:48 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  5:21:48 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  5:21:48 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  5:21:48
+2023-05-27  5:21:48 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:21:48 0 [Note] InnoDB: Shutdown completed; log sequence number 1382599; transaction id 1005
+2023-05-27  5:21:48 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 05:21:48 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230527 05:21:53 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-27  5:21:53 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-27  5:21:53 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-27  5:21:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-27  5:21:53 0 [Note] InnoDB: Number of pools: 1
+2023-05-27  5:21:53 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-27  5:21:53 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-27  5:21:53 0 [Note] InnoDB: Using Linux native AIO
+2023-05-27  5:21:53 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-27  5:21:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-27  5:21:53 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-27  5:21:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-27  5:21:53 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-27  5:21:53 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-27  5:21:53 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382599; transaction id 1002
+2023-05-27  5:21:53 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-27  5:21:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-27  5:21:53 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-27  5:21:53 0 [Note] Server socket created on IP: '::'.
+2023-05-27  5:21:53 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-27  5:21:53 0 [Note] InnoDB: Buffer pool(s) load completed at 230527  5:21:53
+2023-05-27  5:21:54 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-27  5:22:46 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-27  5:22:46 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27  5:22:46 0 [Note] InnoDB: Starting shutdown...
+2023-05-27  5:22:46 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-27  5:22:46 0 [Note] InnoDB: Buffer pool(s) dump completed at 230527  5:22:46
+2023-05-27  5:22:46 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-27  5:22:46 0 [Note] InnoDB: Shutdown completed; log sequence number 1382611; transaction id 1005
+2023-05-27  5:22:46 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230527 05:22:46 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230528 14:26:02 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-28 14:26:02 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-28 14:26:02 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-28 14:26:02 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-28 14:26:02 0 [Note] InnoDB: Number of pools: 1
+2023-05-28 14:26:02 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-28 14:26:02 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-28 14:26:02 0 [Note] InnoDB: Using Linux native AIO
+2023-05-28 14:26:02 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-28 14:26:02 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-28 14:26:02 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-28 14:26:02 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-28 14:26:02 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-28 14:26:02 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-28 14:26:02 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382611; transaction id 1002
+2023-05-28 14:26:02 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-28 14:26:02 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-28 14:26:02 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-28 14:26:02 0 [Note] Server socket created on IP: '::'.
+2023-05-28 14:26:02 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-28 14:26:02 0 [Note] InnoDB: Buffer pool(s) load completed at 230528 14:26:02
+2023-05-28 14:26:03 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+230528 14:28:50 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-28 14:28:50 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 394
+2023-05-28 14:28:50 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-28 14:28:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-28 14:28:50 0 [Note] InnoDB: Number of pools: 1
+2023-05-28 14:28:50 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-28 14:28:50 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-28 14:28:50 0 [Note] InnoDB: Using Linux native AIO
+2023-05-28 14:28:50 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-28 14:28:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-28 14:28:50 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1382611,1382611
+2023-05-28 14:28:50 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000012', position 38105
+2023-05-28 14:28:50 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-28 14:28:50 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-28 14:28:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-28 14:28:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-28 14:28:50 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-28 14:28:50 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382623; transaction id 1002
+2023-05-28 14:28:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-28 14:28:50 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-28 14:28:50 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2023-05-28 14:28:50 0 [Note] Starting table crash recovery...
+2023-05-28 14:28:50 0 [Note] Crash table recovery finished.
+2023-05-28 14:28:50 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-28 14:28:50 0 [Note] Server socket created on IP: '::'.
+2023-05-28 14:28:50 0 [Note] InnoDB: Buffer pool(s) load completed at 230528 14:28:50
+2023-05-28 14:28:50 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-28 14:28:51 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-28 14:29:58 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-28 14:29:58 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-28 14:29:58 0 [Note] InnoDB: Starting shutdown...
+2023-05-28 14:29:58 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-28 14:29:58 0 [Note] InnoDB: Buffer pool(s) dump completed at 230528 14:29:58
+2023-05-28 14:29:59 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-28 14:29:59 0 [Note] InnoDB: Shutdown completed; log sequence number 1382647; transaction id 1005
+2023-05-28 14:29:59 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230528 14:29:59 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230528 14:35:41 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-28 14:35:41 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-28 14:35:41 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-28 14:35:41 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-28 14:35:41 0 [Note] InnoDB: Number of pools: 1
+2023-05-28 14:35:41 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-28 14:35:41 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-28 14:35:41 0 [Note] InnoDB: Using Linux native AIO
+2023-05-28 14:35:41 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-28 14:35:41 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-28 14:35:41 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-28 14:35:41 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-28 14:35:41 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-28 14:35:41 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-28 14:35:41 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382647; transaction id 1002
+2023-05-28 14:35:41 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-28 14:35:41 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-28 14:35:41 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-28 14:35:41 0 [Note] Server socket created on IP: '::'.
+2023-05-28 14:35:41 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-28 14:35:41 0 [Note] InnoDB: Buffer pool(s) load completed at 230528 14:35:41
+2023-05-28 14:35:42 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-28 14:36:09 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-28 14:36:09 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-28 14:36:09 0 [Note] InnoDB: Starting shutdown...
+2023-05-28 14:36:09 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-28 14:36:09 0 [Note] InnoDB: Buffer pool(s) dump completed at 230528 14:36:09
+2023-05-28 14:36:09 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-28 14:36:09 0 [Note] InnoDB: Shutdown completed; log sequence number 1382659; transaction id 1005
+2023-05-28 14:36:09 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230528 14:36:09 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230528 14:37:21 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-28 14:37:21 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-28 14:37:21 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-28 14:37:21 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-28 14:37:21 0 [Note] InnoDB: Number of pools: 1
+2023-05-28 14:37:21 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-28 14:37:21 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-28 14:37:21 0 [Note] InnoDB: Using Linux native AIO
+2023-05-28 14:37:21 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-28 14:37:21 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-28 14:37:21 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-28 14:37:21 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-28 14:37:21 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-28 14:37:21 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-28 14:37:21 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382659; transaction id 1002
+2023-05-28 14:37:21 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-28 14:37:21 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-28 14:37:21 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-28 14:37:21 0 [Note] Server socket created on IP: '::'.
+2023-05-28 14:37:21 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-28 14:37:21 0 [Note] InnoDB: Buffer pool(s) load completed at 230528 14:37:21
+2023-05-28 14:37:22 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-28 14:38:54 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-28 14:38:54 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-28 14:38:54 0 [Note] InnoDB: Starting shutdown...
+2023-05-28 14:38:54 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-28 14:38:54 0 [Note] InnoDB: Buffer pool(s) dump completed at 230528 14:38:54
+2023-05-28 14:38:54 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-28 14:38:54 0 [Note] InnoDB: Shutdown completed; log sequence number 1382671; transaction id 1005
+2023-05-28 14:38:54 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230528 14:38:54 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+230528 19:03:22 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2023-05-28 19:03:22 0 [Note] Starting MariaDB 10.6.13-MariaDB-log source revision a24f2bb50ba4a0dd4127455f7fcdfed584937f36 as process 392
+2023-05-28 19:03:22 0 [Note] Using unique option prefix 'myisam_recover' is error-prone and can break in the future. Please use the full name 'myisam-recover-options' instead.
+2023-05-28 19:03:22 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2023-05-28 19:03:22 0 [Note] InnoDB: Number of pools: 1
+2023-05-28 19:03:22 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-05-28 19:03:22 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2023-05-28 19:03:22 0 [Note] InnoDB: Using Linux native AIO
+2023-05-28 19:03:22 0 [Note] InnoDB: Initializing buffer pool, total size = 268435456, chunk size = 134217728
+2023-05-28 19:03:22 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-28 19:03:22 0 [Note] InnoDB: 128 rollback segments are active.
+2023-05-28 19:03:22 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-28 19:03:22 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-28 19:03:22 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-05-28 19:03:22 0 [Note] InnoDB: 10.6.13 started; log sequence number 1382671; transaction id 1002
+2023-05-28 19:03:22 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2023-05-28 19:03:22 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-28 19:03:22 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-05-28 19:03:22 0 [Note] Server socket created on IP: '::'.
+2023-05-28 19:03:22 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.6.13-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2023-05-28 19:03:22 0 [Note] InnoDB: Buffer pool(s) load completed at 230528 19:03:22
+2023-05-28 19:03:23 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2023-05-28 19:13:23 4 [Warning] Aborted connection 4 to db: 'authelia' user: 'root' host: 'auth.startup_net' (Got timeout reading communication packets)
+2023-05-29 12:37:31 0 [Note] /usr/bin/mariadbd (initiated by: unknown): Normal shutdown
+2023-05-29 12:37:31 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-29 12:37:31 0 [Note] InnoDB: Starting shutdown...
+2023-05-29 12:37:31 0 [Note] InnoDB: Dumping buffer pool(s) to /config/databases/ib_buffer_pool
+2023-05-29 12:37:31 0 [Note] InnoDB: Buffer pool(s) dump completed at 230529 12:37:31
+2023-05-29 12:37:32 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-05-29 12:37:32 0 [Note] InnoDB: Shutdown completed; log sequence number 1382683; transaction id 1005
+2023-05-29 12:37:32 0 [Note] /usr/bin/mariadbd: Shutdown complete
+
+230529 12:37:32 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended

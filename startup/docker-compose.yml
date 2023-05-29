@@ -1,0 +1,142 @@
+version: "3.8"
+
+networks:
+  net:
+    driver: bridge
+
+services:
+  swag:
+    container_name: swag
+    image: lscr.io/linuxserver/swag
+    restart: unless-stopped
+    networks:
+      net:
+        aliases: []
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ${PWD}/data/swag:/config
+      #- ${PWD}/data/swag/snippets:/snippets:ro
+      ## Uncomment the above line if you want to use the Authelia configuration snippets.
+    environment:
+      PUID: '1000'
+      PGID: '1000'
+      TZ: 'America/Chicago'
+      URL: 'serveme.site'
+      SUBDOMAINS: 'wwww,whoami,yacht,heimdall,plex,auth,'
+      VALIDATION: 'http'
+      ONLY_SUBDOMAINS: 'false'
+      #STAGING: 'true'
+    cap_add:
+      - NET_ADMIN
+
+  heimdall:
+    image: linuxserver/heimdall
+    container_name: heimdall
+    volumes:
+      - ${PWD}/data/heimdall:/config
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Chicago
+    ports:
+      - 9000:9000
+    networks:
+      net:
+        aliases: []
+    restart: unless-stopped
+
+  plex:
+    image: lscr.io/linuxserver/plex
+    container_name: plex
+    networks:
+      net:
+        aliases: []
+    ports:
+      - 32400:32400
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - VERSION=docker
+    volumes:
+      - ${PWD}/data/plex:/config
+      - /home/raranaga/tvshows:/data/tvshows
+      - /home/raranaga/movies:/data/movies
+    restart: unless-stopped
+
+  yacht:
+    container_name: yacht
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+    volumes:
+      - ${PWD}/data/yacht:/config
+      - /var/run/docker.sock:/var/run/docker.sock
+    image: selfhostedpro/yacht
+    environment:
+      DISABLE_AUTH: 'true'
+    networks:
+      net:
+        aliases: []
+
+  whoami:
+    container_name: whoami
+    image: docker.io/traefik/whoami
+    restart: unless-stopped
+    networks:
+      net:
+        aliases: []
+    expose:
+      - 80
+    environment:
+      TZ: 'America/Chicago'
+
+  auth:
+    container_name: auth
+    image: authelia/authelia:latest
+    restart: unless-stopped
+    networks:
+      net:
+        aliases: []
+    expose:
+      - 9091
+    volumes:
+      - ${PWD}/data/authelia/config:/config
+    environment:
+      TZ: 'America/Chicago'
+    depends_on:
+      - redis
+      - mariadb
+
+  redis:
+    container_name: redis
+    image: redis:alpine
+    expose:
+      - 6379
+    volumes:
+      - ${PWD}/data/redis:/data
+    environment:
+      REDIS_PASSWORD: "redis"
+    networks:
+      net:
+        aliases: []
+    restart: unless-stopped
+
+  mariadb:
+    container_name: mariadb
+    image: linuxserver/mariadb:latest
+    expose:
+      - 3306
+    volumes:
+      - ${PWD}/data/mariadb:/config
+    environment:
+      MYSQL_ROOT_PASSWORD: "mysql"
+      MYSQL_ROOT_USER: root
+      MYSQL_DATABASE: authelia
+      MYSQL_USER: authelia
+      MYSQL_PASSWORD: "mysql"
+    networks:
+      net:
+        aliases: []
+    restart: unless-stopped

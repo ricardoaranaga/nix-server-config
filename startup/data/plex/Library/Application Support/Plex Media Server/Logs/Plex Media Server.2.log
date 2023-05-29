@@ -1,0 +1,1017 @@
+May 29, 2023 12:44:12.183 [139932981590840] INFO - Plex Media Server v1.32.2.7100-248a2daf0 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 debian - GMT 00:00
+May 29, 2023 12:44:12.183 [139932981590840] INFO - Linux version: 5.15.94, language: en-US
+May 29, 2023 12:44:12.183 [139932981590840] INFO - Processor: 4-core Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+May 29, 2023 12:44:12.183 [139932981590840] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
+May 29, 2023 12:44:12.183 [139932981590840] INFO - /usr/lib/plexmediaserver/Plex Media Server
+May 29, 2023 12:44:12.183 [139932984134288] DEBUG - BPQ: [Idle] -> [Starting]
+May 29, 2023 12:44:12.184 [139932984134288] DEBUG - FeatureManager: Using cached data for features list
+May 29, 2023 12:44:12.249 [139932984134288] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+May 29, 2023 12:44:12.249 [139932984134288] DEBUG - HttpServer: Listening on port 32400.
+May 29, 2023 12:44:12.249 [139932984134288] DEBUG - HttpServer: Listening on port 32401.
+May 29, 2023 12:44:12.249 [139932984134288] DEBUG - Running server...
+May 29, 2023 12:44:12.250 [139932984134288] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+May 29, 2023 12:44:12.250 [139932971510584] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+May 29, 2023 12:44:12.287 [139932984134288] INFO - Running migrations. (EPG 0)
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 0.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 1.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 2.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 3.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 4.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 5.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 6.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 7.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 8.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 9.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 10.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 11.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 12.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 13.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 14.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 15.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 16.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 17.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 18.
+May 29, 2023 12:44:12.288 [139932984134288] DEBUG - Captured session 19.
+May 29, 2023 12:44:12.290 [139932984134288] DEBUG - ChangestampAllocator: initialized to 0
+May 29, 2023 12:44:12.290 [139932984134288] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.39.4, threadsafe=1
+May 29, 2023 12:44:12.295 [139932984134288] INFO - Running migrations. (EPG 0)
+May 29, 2023 12:44:12.295 [139932984134288] DEBUG - Captured session 0.
+May 29, 2023 12:44:12.295 [139932984134288] DEBUG - Captured session 1.
+May 29, 2023 12:44:12.306 [139932963392312] DEBUG - Grabber: Cleaning up orphaned grabs.
+May 29, 2023 12:44:12.306 [139932963392312] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+May 29, 2023 12:44:12.308 [139932963392312] DEBUG - MyPlex: mapping state set to 'Unknown'.
+May 29, 2023 12:44:12.308 [139932963392312] DEBUG - Relay: read 0 cached entries from hosts file
+May 29, 2023 12:44:12.308 [139932984134288] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+May 29, 2023 12:44:12.308 [139932984134288] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+May 29, 2023 12:44:12.311 [139932960213816] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+May 29, 2023 12:44:12.313 [139932984134288] DEBUG - Opening 1 database sessions to library (), SQLite 3.39.4, threadsafe=1
+May 29, 2023 12:44:12.318 [139932953611064] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0" changed: -1 => 2023-05-22 17:29:08 (1684776548).
+May 29, 2023 12:44:12.318 [139932953611064] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2023-05-28 14:26:04 (1685283964).
+May 29, 2023 12:44:12.318 [139932953611064] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0"
+May 29, 2023 12:44:12.319 [139932953611064] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+May 29, 2023 12:44:12.320 [139932953611064] DEBUG - PluginRepository::setStartState: 1, startingSystem
+May 29, 2023 12:44:12.320 [139932953611064] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/System.bundle.
+May 29, 2023 12:44:12.321 [139932953611064] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+May 29, 2023 12:44:12.322 [139932953611064] DEBUG - Starting file watcher for com.plexapp.system
+May 29, 2023 12:44:12.322 [139932953611064] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+May 29, 2023 12:44:12.322 [139932953611064] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+May 29, 2023 12:44:12.331 [139932953611064] DEBUG - Spawned plug-in com.plexapp.system with PID 177
+May 29, 2023 12:44:12.331 [139932953611064] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+May 29, 2023 12:44:12.734 [139932963392312] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability
+May 29, 2023 12:44:12.734 [139932963392312] WARN - [MediaProviderManager] Unrecognized MediaProvider feature: availability-platforms
+May 29, 2023 12:44:12.734 [139932963392312] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 1
+May 29, 2023 12:44:12.734 [139932963392312] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+May 29, 2023 12:44:13.138 [139932976917304] DEBUG - Request: didn't get any data from [::ffff:127.0.0.1]:46234: End of file
+May 29, 2023 12:44:13.235 [139932947118904] DEBUG - Request: [127.0.0.1:46250 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #3 GZIP Token ()
+May 29, 2023 12:44:13.235 [139932974807864] DEBUG - Completed: [127.0.0.1:46250] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #3 GZIP 0ms 436 bytes
+May 29, 2023 12:44:13.254 [139932947118904] DEBUG - Request: [127.0.0.1:46254 (Loopback)] GET / (3 live) #4 GZIP Token ()
+May 29, 2023 12:44:13.255 [139932974807864] DEBUG - Completed: [127.0.0.1:46254] 503 GET / (3 live) #4 GZIP 0ms 436 bytes
+May 29, 2023 12:44:13.944 [139932947118904] DEBUG - Request: [127.0.0.1:46258 (Loopback)] GET /servers (3 live) #7 GZIP Token ()
+May 29, 2023 12:44:13.944 [139932974807864] DEBUG - Completed: [127.0.0.1:46258] 503 GET /servers (3 live) #7 GZIP 0ms 436 bytes
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG - Reading 486 bytes in the body, code is 200
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG - [com.plexapp.system] Plug-in running on port 34857.
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG -  * Plug-in handles prefix: /system
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG -  * Plug-in handles prefix: /player
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG - Updating the list of agents known by the system.
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+May 29, 2023 12:44:13.961 [139932953611064] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:34857/system/agents
+May 29, 2023 12:44:13.962 [139932984134288] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+May 29, 2023 12:44:13.962 [139932984134288] DEBUG - Transcoder: Cleaning old transcode directories.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - MyPlex: stop public ip check and mapping - current mapped state: 'Unknown'.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkInterface: Starting watch thread.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - Network change.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkInterface: Notified of network changed (force=0)
+May 29, 2023 12:44:13.963 [139932942850872] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - Detected primary interface: 172.24.0.5
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - Network interfaces:
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG -  * 8745 eth0 (172.24.0.5) (02-42-AC-18-00-05) (loopback: 0)
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - Creating NetworkServices singleton.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkServices: Initializing...
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Creating new service.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Quick dispatch of network change.
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - Network change for advertiser.
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Creating new service.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Quick dispatch of network change.
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - Network change for advertiser.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Creating new service.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Quick dispatch of network change.
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Creating new service.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Quick dispatch of network change.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Creating new service.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Quick dispatch of network change.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Creating new service.
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+May 29, 2023 12:44:13.963 [139932984134288] DEBUG - NetworkService: Quick dispatch of network change.
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - Network change for advertiser.
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - NetworkService: Browsing on interface 172.24.0.5 on broadcast address 172.24.255.255 (index: 1)
+May 29, 2023 12:44:13.963 [139932940741432] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+May 29, 2023 12:44:13.964 [139932940741432] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+May 29, 2023 12:44:13.964 [139932940741432] DEBUG - NetworkService: Browsing on interface 172.24.0.5 on broadcast address 172.24.255.255 (index: 1)
+May 29, 2023 12:44:13.964 [139932940741432] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+May 29, 2023 12:44:13.964 [139932940741432] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+May 29, 2023 12:44:13.964 [139932940741432] DEBUG - NetworkService: Browsing on interface 172.24.0.5 on broadcast address 239.255.255.250 (index: 0)
+May 29, 2023 12:44:13.964 [139932940741432] DEBUG - [NSB] NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (7b9cf2e15fae)
+May 29, 2023 12:44:13.964 [139932940741432] DEBUG - [NSB] Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+May 29, 2023 12:44:13.964 [139932940741432] DEBUG - [NSB] [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+May 29, 2023 12:44:13.964 [139932940741432] DEBUG - [NSB/HCl#4] HTTP requesting GET http://127.0.0.1:34857/system/notify/serverUpdated?host=127.0.0.1
+May 29, 2023 12:44:13.965 [139932936383288] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
+May 29, 2023 12:44:13.965 [139932936383288] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.32.2.7100-248a2daf0 32600
+May 29, 2023 12:44:13.969 [139932936383288] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 245
+May 29, 2023 12:44:14.001 [139932947118904] DEBUG - Request: [127.0.0.1:46260 (Loopback)] GET /servers (3 live) #9 GZIP Token ()
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale sr
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale ar
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale pt_BR
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale es
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale de
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale hu
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale af
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale nl_BE
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale lt
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale sk
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale et_EE
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale ru
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale sl
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale ro
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale da
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale fi
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale pt
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale ko
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale ja_JP
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale no
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale cs_CZ
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale fr
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale hr_HR
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale sv
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale en
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale nl
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale he
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale hu_HU
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale uk
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale it
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale pl
+May 29, 2023 12:44:14.002 [139932947118904] DEBUG - Translator: Found locale zh_CN
+May 29, 2023 12:44:14.004 [139932974807864] DEBUG - Completed: [127.0.0.1:46260] 200 GET /servers (3 live) #9 GZIP 2ms 491 bytes
+May 29, 2023 12:44:14.010 [139932958087992] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:34857/system/agents
+May 29, 2023 12:44:14.010 [139932953611064] DEBUG - [com.plexapp.system] HTTP reply status 200, with 11297 bytes of content.
+May 29, 2023 12:44:14.012 [139932953611064] DEBUG - The system knows about 16 agents.
+May 29, 2023 12:44:14.013 [139932933499704] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/LastFM.bundle.
+May 29, 2023 12:44:14.013 [139932931390264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/MoviePosterDB.bundle.
+May 29, 2023 12:44:14.013 [139932958087992] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:34857/system/notify/serverUpdated?host=127.0.0.1
+May 29, 2023 12:44:14.013 [139932940741432] DEBUG - [NSB] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+May 29, 2023 12:44:14.013 [139932953611064] DEBUG - Waiting for 20 plug-ins to finish starting.
+May 29, 2023 12:44:14.014 [139932931390264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+May 29, 2023 12:44:14.014 [139932931390264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PersonalMedia.bundle.
+May 29, 2023 12:44:14.014 [139932933499704] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+May 29, 2023 12:44:14.014 [139932933499704] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/OpenSubtitles.bundle.
+May 29, 2023 12:44:14.014 [139932929280824] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexMusic.bundle.
+May 29, 2023 12:44:14.015 [139932931390264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+May 29, 2023 12:44:14.015 [139932931390264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexMovieNew.bundle.
+May 29, 2023 12:44:14.015 [139932933499704] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.opensubtitles] yet.
+May 29, 2023 12:44:14.015 [139932933499704] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexThemeMusic.bundle.
+May 29, 2023 12:44:14.016 [139932931390264] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.movie] yet.
+May 29, 2023 12:44:14.016 [139932931390264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Musicbrainz.bundle.
+May 29, 2023 12:44:14.017 [139932933499704] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+May 29, 2023 12:44:14.017 [139932929280824] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.music] yet.
+May 29, 2023 12:44:14.017 [139932933499704] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/HTbackdrops.bundle.
+May 29, 2023 12:44:14.017 [139932931390264] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+May 29, 2023 12:44:14.017 [139932931390264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/LyricFind.bundle.
+May 29, 2023 12:44:14.018 [139932929280824] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Fanart-TV.bundle.
+May 29, 2023 12:44:14.018 [139932933499704] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+May 29, 2023 12:44:14.018 [139932933499704] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Media-Flags.bundle.
+May 29, 2023 12:44:14.019 [139932931390264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+May 29, 2023 12:44:14.019 [139932931390264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexMovie.bundle.
+May 29, 2023 12:44:14.020 [139932933499704] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle.
+May 29, 2023 12:44:14.020 [139932931390264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+May 29, 2023 12:44:14.020 [139932931390264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/LocalMedia.bundle.
+May 29, 2023 12:44:14.021 [139932910148408] DEBUG - DVR: Starting up.
+May 29, 2023 12:44:14.022 [139932910148408] DEBUG - Activity: registered new activity 330e63ad-3b0e-4ca2-8c34-0eb06019da28 - "Processing subscriptions"
+May 29, 2023 12:44:14.022 [139932929280824] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+May 29, 2023 12:44:14.022 [139932929280824] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Framework.bundle.
+May 29, 2023 12:44:14.022 [139932931390264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+May 29, 2023 12:44:14.022 [139932931390264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/TheMovieDB.bundle.
+May 29, 2023 12:44:14.023 [139932984134288] DEBUG - [HCl#6] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+May 29, 2023 12:44:14.023 [139932933499704] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/Scanners.bundle.
+May 29, 2023 12:44:14.024 [139932931390264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+May 29, 2023 12:44:14.024 [139932931390264] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/TheTVDB.bundle.
+May 29, 2023 12:44:14.024 [139932933499704] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/PlexSeries.bundle.
+May 29, 2023 12:44:14.025 [139932931390264] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+May 29, 2023 12:44:14.026 [139932933499704] DEBUG - Perfect cache hit, we don't need to start [tv.plex.agents.series] yet.
+May 29, 2023 12:44:14.026 [139932953611064] DEBUG - Starting scheduled updates, every 3600 seconds
+May 29, 2023 12:44:14.026 [139932953611064] INFO - LibraryUpdateManager path watching is disabled
+May 29, 2023 12:44:14.026 [139932953611064] DEBUG - Done waiting for all plug-ins to start.
+May 29, 2023 12:44:14.026 [139932953611064] DEBUG - PluginRepository::setStartState: 3, complete
+May 29, 2023 12:44:14.026 [139932899560248] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+May 29, 2023 12:44:14.027 [139932899560248] DEBUG - [Req#d] Starting file watcher for com.plexapp.agents.imdb
+May 29, 2023 12:44:14.027 [139932899560248] DEBUG - [Req#d] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+May 29, 2023 12:44:14.027 [139932899560248] DEBUG - [Req#d] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+May 29, 2023 12:44:14.029 [139932899560248] DEBUG - [Req#d] Spawned plug-in com.plexapp.agents.imdb with PID 280
+May 29, 2023 12:44:14.029 [139932899560248] DEBUG - [Req#d] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+May 29, 2023 12:44:14.052 [139932908038968] DEBUG - [MediaProviderManager] we had 1 cloud providers online, we now have 1
+May 29, 2023 12:44:14.052 [139932908038968] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+May 29, 2023 12:44:14.178 [139932960213816] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.32.2.7100-248a2daf0" --version=1.32.2.7100-248a2daf0 --platform=Linux --platformVersion=5.15.94 --serverUuid=f9bc795cf65c88a148b297975c19a35fac926692 --userId=NOUSERID --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/minidump/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container (LinuxServer.io)"
+May 29, 2023 12:44:14.188 [139932960213816] DEBUG - [JobRunner] Jobs: Starting child process with pid 281
+May 29, 2023 12:44:14.195 [139932979391288] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 281 is 0 (success)
+May 29, 2023 12:44:14.442 [139932958087992] DEBUG - [HttpClient/HCl#6] HTTP/2.0 (0.4s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+May 29, 2023 12:44:14.442 [139932984134288] DEBUG - [HCl#7] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+May 29, 2023 12:44:14.577 [139932958087992] DEBUG - [HttpClient/HCl#7] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxx
+May 29, 2023 12:44:14.577 [139932984134288] DEBUG - [DatabaseFixups] Running fix-ups.
+May 29, 2023 12:44:14.578 [139932984134288] DEBUG - [DatabaseFixups] Destroyed 0 transient items.
+May 29, 2023 12:44:14.578 [139932984134288] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
+May 29, 2023 12:44:14.578 [139932984134288] DEBUG - [HCl#8] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=
+May 29, 2023 12:44:14.679 [139932947118904] DEBUG - Request: [127.0.0.1:46266 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #b GZIP Token ()
+May 29, 2023 12:44:14.679 [139932947118904] DEBUG - [Req#b] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+May 29, 2023 12:44:14.679 [139932947118904] DEBUG - [Req#b/HCl#9] HTTP requesting GET http://127.0.0.1:34857/system/messaging/clear_events/com.plexapp.agents.imdb
+May 29, 2023 12:44:14.682 [139932958087992] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:34857/system/messaging/clear_events/com.plexapp.agents.imdb (reused)
+May 29, 2023 12:44:14.682 [139932947118904] DEBUG - [Req#b] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+May 29, 2023 12:44:14.682 [139932974807864] DEBUG - Completed: [127.0.0.1:46266] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (3 live) #b GZIP 2ms 280 bytes
+May 29, 2023 12:44:14.716 [139932958087992] DEBUG - [HttpClient/HCl#8] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxx
+May 29, 2023 12:44:14.717 [139932984134288] DEBUG - MyPlex: Sending unclaimed device connections
+May 29, 2023 12:44:14.717 [139932984134288] DEBUG - [HCl#a] HTTP requesting POST https://plex.tv/devices/f9bc795cf65c88a148b297975c19a35fac926692/unclaimed?Connection[][uri]=http://172.24.0.5:32400
+May 29, 2023 12:44:14.785 [139932947118904] DEBUG - Request: [127.0.0.1:46272 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #e GZIP Token ()
+May 29, 2023 12:44:14.785 [139932947118904] DEBUG - [Req#e] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+May 29, 2023 12:44:14.785 [139932947118904] DEBUG - [Req#e/HCl#b] HTTP requesting GET http://127.0.0.1:34857/:/plugins/com.plexapp.system/resourceHashes
+May 29, 2023 12:44:14.857 [139932958087992] DEBUG - [HttpClient/HCl#a] HTTP/2.0 (0.1s) 200 response from POST https://plex.tv/devices/f9bc795cf65c88a148b297975c19a35fac926692/unclaimed?Connection[][uri]=http://172.24.0.5:32400 (reused)
+May 29, 2023 12:44:14.857 [139932984134288] DEBUG - Waiting for server condition to be signaled.
+May 29, 2023 12:44:14.912 [139932958087992] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.1s) 404 response from GET http://127.0.0.1:34857/:/plugins/com.plexapp.system/resourceHashes (reused)
+May 29, 2023 12:44:14.912 [139932947118904] DEBUG - [Req#e] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+May 29, 2023 12:44:14.912 [139932974807864] DEBUG - Completed: [127.0.0.1:46272] 404 GET /:/plugins/com.plexapp.system/resourceHashes (3 live) #e GZIP 126ms 261 bytes
+May 29, 2023 12:44:14.922 [139932947118904] DEBUG - Request: [127.0.0.1:58946 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #10 GZIP Token ()
+May 29, 2023 12:44:14.922 [139932947118904] DEBUG - [Req#10] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+May 29, 2023 12:44:14.922 [139932947118904] DEBUG - [Req#10/HCl#c] HTTP requesting GET http://127.0.0.1:34857/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+May 29, 2023 12:44:14.923 [139932930501432] DEBUG - Request: [127.0.0.1:58958 (Loopback)] GET / (4 live) #12 GZIP Token ()
+May 29, 2023 12:44:14.924 [139932976917304] DEBUG - Completed: [127.0.0.1:58958] 200 GET / (4 live) #12 GZIP 0ms 2156 bytes
+May 29, 2023 12:44:14.926 [139932958087992] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:34857/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+May 29, 2023 12:44:14.926 [139932947118904] DEBUG - [Req#10] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
+May 29, 2023 12:44:14.926 [139932976917304] DEBUG - Completed: [127.0.0.1:58946] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #10 GZIP 3ms 746 bytes
+May 29, 2023 12:44:15.503 [139932930501432] DEBUG - Request: [127.0.0.1:58968 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #13 GZIP Token ()
+May 29, 2023 12:44:15.503 [139932930501432] DEBUG - [Req#13] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+May 29, 2023 12:44:15.503 [139932930501432] DEBUG - [Req#13/HCl#d] HTTP requesting GET http://127.0.0.1:34857/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+May 29, 2023 12:44:15.507 [139932958087992] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:34857/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+May 29, 2023 12:44:15.507 [139932930501432] DEBUG - [Req#13] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+May 29, 2023 12:44:15.507 [139932976917304] DEBUG - Completed: [127.0.0.1:58968] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (3 live) #13 GZIP 4ms 415 bytes
+May 29, 2023 12:44:15.511 [139932899560248] DEBUG - [Req#d] Reading 148 bytes in the body, code is 200
+May 29, 2023 12:44:15.511 [139932899560248] DEBUG - [Req#d] [com.plexapp.agents.imdb] Plug-in running on port 36671.
+May 29, 2023 12:44:15.511 [139932899560248] DEBUG - [Req#d] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+May 29, 2023 12:44:15.511 [139932899560248] DEBUG - [Req#d] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+May 29, 2023 12:44:15.511 [139932899560248] DEBUG - [Req#d/HCl#e] HTTP requesting GET http://127.0.0.1:36671/:/plugins/com.plexapp.agents.imdb/prefs
+May 29, 2023 12:44:15.527 [139932958087992] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:36671/:/plugins/com.plexapp.agents.imdb/prefs
+May 29, 2023 12:44:15.527 [139932899560248] DEBUG - [Req#d] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+May 29, 2023 12:44:15.528 [139932899560248] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 595b326cf2dba61b912b20cc60cd971481899e8b
+May 29, 2023 12:44:15.528 [139932899560248] DEBUG - IVA: Downloading trailer lists.
+May 29, 2023 12:44:15.565 [139932899560248] DEBUG - IVA: Downloaded 55 trailers for source 1.
+May 29, 2023 12:44:15.603 [139932899560248] DEBUG - IVA: Downloaded 22 trailers for source 2.
+May 29, 2023 12:44:22.306 [139932938574648] DEBUG - DVR:Device: Discovering and refreshing all devices.
+May 29, 2023 12:44:22.306 [139932938574648] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+May 29, 2023 12:44:22.306 [139932938574648] DEBUG - [HCl#14] HTTP requesting POST http://127.0.0.1:32600/devices/discover
+May 29, 2023 12:44:24.023 [139932897450808] DEBUG - Grabber: Cleaning up orphaned grabs.
+May 29, 2023 12:44:24.023 [139932897450808] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+May 29, 2023 12:44:24.023 [139932897450808] DEBUG - Activity: registered new activity 79fba2b1-0bdb-4018-b259-d9fc9b9c68b7 - "Processing subscriptions"
+May 29, 2023 12:44:24.023 [139932897450808] DEBUG - Subscription: Scheduling subscriptions.
+May 29, 2023 12:44:24.023 [139932897450808] DEBUG - Subscription: Initialized 0 schedulers.
+May 29, 2023 12:44:24.023 [139932897450808] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+May 29, 2023 12:44:24.023 [139932897450808] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+May 29, 2023 12:44:24.023 [139932897450808] DEBUG - Activity: Ended activity 79fba2b1-0bdb-4018-b259-d9fc9b9c68b7.
+May 29, 2023 12:44:24.024 [139932897450808] DEBUG - Subscription: There are 0 active grabs at the end.
+May 29, 2023 12:44:24.024 [139932897450808] DEBUG - Activity: Ended activity 330e63ad-3b0e-4ca2-8c34-0eb06019da28.
+May 29, 2023 12:44:24.024 [139932897450808] DEBUG - Subscription: Refreshed all content in 1 ms.
+May 29, 2023 12:44:24.733 [139932958087992] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (2.4s) 200 response from POST http://127.0.0.1:32600/devices/discover
+May 29, 2023 12:44:30.024 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:30.024 [139932976917304] DEBUG - Request: [172.24.0.2:33800 (WAN)] GET / (3 live) #16 GZIP
+May 29, 2023 12:44:30.024 [139932976917304] DEBUG - Completed: [172.24.0.2:33800] 401 GET / (3 live) #16 GZIP 0ms 435 bytes
+May 29, 2023 12:44:30.070 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:30.070 [139932930501432] DEBUG - Request: [172.24.0.2:33804 (WAN)] GET /web/index.html (3 live) #1b GZIP
+May 29, 2023 12:44:30.072 [139932930501432] DEBUG - [Req#1b] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html"
+May 29, 2023 12:44:30.072 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html is 8276 (of total: 8276).
+May 29, 2023 12:44:30.072 [139932976917304] DEBUG - Completed: [172.24.0.2:33804] 200 GET /web/index.html (3 live) #1b GZIP 2ms 8276 bytes
+May 29, 2023 12:44:30.093 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:30.093 [139932930501432] DEBUG - Request: [172.24.0.2:33806 (WAN)] GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (3 live) #1d GZIP
+May 29, 2023 12:44:30.093 [139932930501432] DEBUG - [Req#1d] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 12:44:30.093 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css is 80927 (of total: 80927).
+May 29, 2023 12:44:30.093 [139932976917304] DEBUG - Completed: [172.24.0.2:33806] 200 GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (3 live) #1d GZIP 0ms 80927 bytes
+May 29, 2023 12:44:30.097 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:30.097 [139932930501432] DEBUG - Request: [172.24.0.2:33810 (WAN)] GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (3 live) #1f GZIP
+May 29, 2023 12:44:30.097 [139932930501432] DEBUG - [Req#1f] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 12:44:30.097 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css is 458760 (of total: 458760).
+May 29, 2023 12:44:30.101 [139932974807864] DEBUG - Completed: [172.24.0.2:33810] 200 GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (3 live) #1f GZIP 4ms 458760 bytes
+May 29, 2023 12:44:30.103 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:30.103 [139932930501432] DEBUG - Request: [172.24.0.2:33812 (WAN)] GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (4 live) #21 GZIP
+May 29, 2023 12:44:30.103 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:30.103 [139932960213816] DEBUG - Request: [172.24.0.2:33816 (WAN)] GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (4 live) #23 GZIP
+May 29, 2023 12:44:30.103 [139932930501432] DEBUG - [Req#21] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 12:44:30.103 [139932960213816] DEBUG - [Req#23] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 12:44:30.103 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js is 1792484 (of total: 1792484).
+May 29, 2023 12:44:30.103 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js is 2958057 (of total: 2958057).
+May 29, 2023 12:44:30.125 [139932974807864] DEBUG - Completed: [172.24.0.2:33812] 200 GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (4 live) #21 GZIP 22ms 1792484 bytes
+May 29, 2023 12:44:30.437 [139932974807864] DEBUG - Completed: [172.24.0.2:33816] 200 GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (3 live) #23 GZIP 334ms 2958057 bytes
+May 29, 2023 12:44:30.964 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:30.965 [139932960213816] DEBUG - Request: [172.24.0.2:33828 (WAN)] GET /web/translations/en.json (3 live) #24 GZIP
+May 29, 2023 12:44:30.965 [139932960213816] DEBUG - [Req#24] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json"
+May 29, 2023 12:44:30.965 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json is 2 (of total: 2).
+May 29, 2023 12:44:30.965 [139932976917304] DEBUG - Completed: [172.24.0.2:33828] 200 GET /web/translations/en.json (3 live) #24 GZIP 0ms 2 bytes
+May 29, 2023 12:44:31.018 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:31.018 [139932930501432] DEBUG - Request: [172.24.0.2:33832 (WAN)] GET /web/static/b38a559594ac52d049ba.png (3 live) #27 GZIP
+May 29, 2023 12:44:31.018 [139932930501432] DEBUG - [Req#27] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png"
+May 29, 2023 12:44:31.018 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png is 54413 (of total: 54413).
+May 29, 2023 12:44:31.018 [139932976917304] DEBUG - Completed: [172.24.0.2:33832] 200 GET /web/static/b38a559594ac52d049ba.png (3 live) #27 GZIP 0ms 54413 bytes
+May 29, 2023 12:44:31.063 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:31.063 [139932960213816] DEBUG - Request: [172.24.0.2:33834 (WAN)] GET /web/static/icon-ipad@2x.png (3 live) #29 GZIP
+May 29, 2023 12:44:31.063 [139932960213816] DEBUG - [Req#29] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/icon-ipad@2x.png"
+May 29, 2023 12:44:31.064 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/icon-ipad@2x.png is 14211 (of total: 14211).
+May 29, 2023 12:44:31.064 [139932974807864] DEBUG - Completed: [172.24.0.2:33834] 200 GET /web/static/icon-ipad@2x.png (3 live) #29 GZIP 0ms 14211 bytes
+May 29, 2023 12:44:31.064 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:31.064 [139932930501432] DEBUG - Request: [172.24.0.2:33838 (WAN)] GET /web/favicon.ico (3 live) #2b GZIP
+May 29, 2023 12:44:31.064 [139932930501432] DEBUG - [Req#2b] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/favicon.ico"
+May 29, 2023 12:44:31.064 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/favicon.ico is 5430 (of total: 5430).
+May 29, 2023 12:44:31.064 [139932974807864] DEBUG - Completed: [172.24.0.2:33838] 200 GET /web/favicon.ico (3 live) #2b GZIP 0ms 5430 bytes
+May 29, 2023 12:44:31.065 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:31.065 [139932974807864] DEBUG - Request: [172.24.0.2:33846 (WAN)] GET /media/providers (3 live) #2c GZIP
+May 29, 2023 12:44:31.065 [139932974807864] DEBUG - Completed: [172.24.0.2:33846] 401 GET /media/providers (3 live) #2c GZIP 0ms 357 bytes
+May 29, 2023 12:44:31.067 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:31.067 [139932974807864] DEBUG - Request: [172.24.0.2:33856 (WAN)] GET / (3 live) #2f GZIP
+May 29, 2023 12:44:31.067 [139932974807864] DEBUG - Completed: [172.24.0.2:33856] 401 GET / (3 live) #2f GZIP 0ms 435 bytes
+May 29, 2023 12:44:31.080 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:44:31.080 [139932960213816] DEBUG - Request: [172.24.0.2:33864 (WAN)] GET /identity (3 live) #31 GZIP
+May 29, 2023 12:44:31.080 [139932974807864] DEBUG - Completed: [172.24.0.2:33864] 200 GET /identity (3 live) #31 GZIP 0ms 451 bytes
+May 29, 2023 12:46:05.111 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:05.111 [139932976917304] DEBUG - Request: [172.24.0.2:45528 (WAN)] GET / (2 live) #33 GZIP
+May 29, 2023 12:46:05.111 [139932976917304] DEBUG - Completed: [172.24.0.2:45528] 401 GET / (2 live) #33 GZIP 0ms 435 bytes
+May 29, 2023 12:46:05.150 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:05.150 [139932960213816] DEBUG - Request: [172.24.0.2:45532 (WAN)] GET /web/index.html (2 live) #36 GZIP
+May 29, 2023 12:46:05.150 [139932960213816] DEBUG - [Req#36] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html"
+May 29, 2023 12:46:05.150 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html is 8276 (of total: 8276).
+May 29, 2023 12:46:05.150 [139932976917304] DEBUG - Completed: [172.24.0.2:45532] 200 GET /web/index.html (2 live) #36 GZIP 0ms 8276 bytes
+May 29, 2023 12:46:05.176 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:05.176 [139932960213816] DEBUG - Request: [172.24.0.2:45538 (WAN)] GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (2 live) #38 GZIP
+May 29, 2023 12:46:05.176 [139932960213816] DEBUG - [Req#38] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 12:46:05.176 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css is 80927 (of total: 80927).
+May 29, 2023 12:46:05.176 [139932976917304] DEBUG - Completed: [172.24.0.2:45538] 200 GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (2 live) #38 GZIP 0ms 80927 bytes
+May 29, 2023 12:46:05.178 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:05.178 [139932960213816] DEBUG - Request: [172.24.0.2:45552 (WAN)] GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (2 live) #3a GZIP
+May 29, 2023 12:46:05.178 [139932960213816] DEBUG - [Req#3a] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 12:46:05.178 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css is 458760 (of total: 458760).
+May 29, 2023 12:46:05.179 [139932976917304] DEBUG - Completed: [172.24.0.2:45552] 200 GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (2 live) #3a GZIP 0ms 458760 bytes
+May 29, 2023 12:46:05.179 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:05.179 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:05.180 [139932960213816] DEBUG - Request: [172.24.0.2:45576 (WAN)] GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (3 live) #3e GZIP
+May 29, 2023 12:46:05.180 [139932960213816] DEBUG - [Req#3e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 12:46:05.180 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js is 2958057 (of total: 2958057).
+May 29, 2023 12:46:05.180 [139932924955448] DEBUG - Request: [172.24.0.2:45564 (WAN)] GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (3 live) #3c GZIP
+May 29, 2023 12:46:05.180 [139932924955448] DEBUG - [Req#3c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 12:46:05.180 [139932924955448] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js is 1792484 (of total: 1792484).
+May 29, 2023 12:46:05.217 [139932976917304] DEBUG - Completed: [172.24.0.2:45564] 200 GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (3 live) #3c GZIP 37ms 1792484 bytes
+May 29, 2023 12:46:05.249 [139932976917304] DEBUG - Completed: [172.24.0.2:45576] 200 GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (2 live) #3e GZIP 69ms 2958057 bytes
+May 29, 2023 12:46:05.937 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:05.937 [139932960213816] DEBUG - Request: [172.24.0.2:45580 (WAN)] GET /web/translations/en.json (2 live) #3f GZIP
+May 29, 2023 12:46:05.937 [139932960213816] DEBUG - [Req#3f] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json"
+May 29, 2023 12:46:05.937 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json is 2 (of total: 2).
+May 29, 2023 12:46:05.937 [139932976917304] DEBUG - Completed: [172.24.0.2:45580] 200 GET /web/translations/en.json (2 live) #3f GZIP 0ms 2 bytes
+May 29, 2023 12:46:05.968 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:05.968 [139932924955448] DEBUG - Request: [172.24.0.2:45596 (WAN)] GET /web/static/b38a559594ac52d049ba.png (2 live) #42 GZIP
+May 29, 2023 12:46:05.968 [139932924955448] DEBUG - [Req#42] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png"
+May 29, 2023 12:46:05.968 [139932924955448] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png is 54413 (of total: 54413).
+May 29, 2023 12:46:05.968 [139932974807864] DEBUG - Completed: [172.24.0.2:45596] 200 GET /web/static/b38a559594ac52d049ba.png (2 live) #42 GZIP 0ms 54413 bytes
+May 29, 2023 12:46:06.013 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:06.013 [139932974807864] DEBUG - Request: [172.24.0.2:45610 (WAN)] GET /media/providers (2 live) #44 GZIP
+May 29, 2023 12:46:06.013 [139932974807864] DEBUG - Completed: [172.24.0.2:45610] 401 GET /media/providers (2 live) #44 GZIP 0ms 357 bytes
+May 29, 2023 12:46:06.016 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:06.016 [139932974807864] DEBUG - Request: [172.24.0.2:45614 (WAN)] GET / (2 live) #46 GZIP
+May 29, 2023 12:46:06.017 [139932974807864] DEBUG - Completed: [172.24.0.2:45614] 401 GET / (2 live) #46 GZIP 0ms 435 bytes
+May 29, 2023 12:46:06.030 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 12:46:06.030 [139932960213816] DEBUG - Request: [172.24.0.2:45622 (WAN)] GET /identity (2 live) #48 GZIP
+May 29, 2023 12:46:06.030 [139932974807864] DEBUG - Completed: [172.24.0.2:45622] 200 GET /identity (2 live) #48 GZIP 0ms 451 bytes
+May 29, 2023 12:46:12.184 [139932893088568] DEBUG - BPQ: [Starting] -> [Processing]
+May 29, 2023 12:46:12.185 [139932893088568] DEBUG - BPQ: generating queue items from 0 generator(s)
+May 29, 2023 12:46:12.185 [139932893088568] DEBUG - BPQ: generated 0 item(s) for queue
+May 29, 2023 12:46:12.185 [139932893088568] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+May 29, 2023 12:46:12.185 [139932893088568] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+May 29, 2023 12:46:12.185 [139932893088568] DEBUG - BPQ: [Processing] -> [Idle]
+May 29, 2023 12:46:13.944 [139932924955448] DEBUG - Request: [127.0.0.1:48724 (Loopback)] GET /servers (2 live) #4a GZIP Token ()
+May 29, 2023 12:46:13.945 [139932974807864] DEBUG - Completed: [127.0.0.1:48724] 200 GET /servers (2 live) #4a GZIP 0ms 491 bytes
+May 29, 2023 12:46:13.947 [139932960213816] DEBUG - Request: [127.0.0.1:48730 (Loopback)] GET / (2 live) #4c GZIP Token ()
+May 29, 2023 12:46:13.947 [139932974807864] DEBUG - Completed: [127.0.0.1:48730] 200 GET / (2 live) #4c GZIP 0ms 2156 bytes
+May 29, 2023 12:46:13.949 [139932924955448] DEBUG - Request: [127.0.0.1:48746 (Loopback)] GET /library/sections (2 live) #4e GZIP Token ()
+May 29, 2023 12:46:13.949 [139932974807864] DEBUG - Completed: [127.0.0.1:48746] 200 GET /library/sections (2 live) #4e GZIP 0ms 403 bytes
+May 29, 2023 12:46:13.951 [139932960213816] DEBUG - Request: [127.0.0.1:48748 (Loopback)] GET /channels/all (2 live) #50 GZIP Token ()
+May 29, 2023 12:46:13.951 [139932974807864] DEBUG - Completed: [127.0.0.1:48748] 200 GET /channels/all (2 live) #50 GZIP 0ms 387 bytes
+May 29, 2023 12:46:13.953 [139932924955448] DEBUG - Request: [127.0.0.1:48762 (Loopback)] GET /library/sections (2 live) #52 GZIP Token ()
+May 29, 2023 12:46:13.953 [139932976917304] DEBUG - Completed: [127.0.0.1:48762] 200 GET /library/sections (2 live) #52 GZIP 0ms 403 bytes
+May 29, 2023 12:46:13.954 [139932960213816] DEBUG - Request: [127.0.0.1:48768 (Loopback)] GET /channels/all (2 live) #54 GZIP Token ()
+May 29, 2023 12:46:13.955 [139932976917304] DEBUG - Completed: [127.0.0.1:48768] 200 GET /channels/all (2 live) #54 GZIP 0ms 387 bytes
+May 29, 2023 13:00:12.369 [139932949285688] DEBUG - Statistics: Flushing 2 expired bandwidth entries, 0 expired media entries.
+May 29, 2023 13:14:23.174 [139932933499704] DEBUG - Putting plug-in com.plexapp.agents.imdb to sleep.
+May 29, 2023 13:14:23.174 [139932933499704] DEBUG - Stopping [com.plexapp.agents.imdb].
+May 29, 2023 13:14:23.174 [139932933499704] DEBUG - [com.plexapp.agents.imdb] Killing.
+May 29, 2023 13:14:23.177 [139932979391288] WARN - JobManager: Could not find job for handle 280
+May 29, 2023 13:14:33.175 [139932933499704] DEBUG - Stopping file watcher for com.plexapp.agents.imdb
+May 29, 2023 15:08:03.339 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.339 [139932976917304] DEBUG - Request: [172.24.0.2:42868 (WAN)] GET / (2 live) #56 GZIP
+May 29, 2023 15:08:03.339 [139932976917304] DEBUG - Completed: [172.24.0.2:42868] 401 GET / (2 live) #56 GZIP 0ms 435 bytes
+May 29, 2023 15:08:03.380 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.380 [139932960213816] DEBUG - Request: [172.24.0.2:42884 (WAN)] GET /web/index.html (2 live) #58 GZIP
+May 29, 2023 15:08:03.380 [139932960213816] DEBUG - [Req#58] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html"
+May 29, 2023 15:08:03.380 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html is 8276 (of total: 8276).
+May 29, 2023 15:08:03.380 [139932976917304] DEBUG - Completed: [172.24.0.2:42884] 200 GET /web/index.html (2 live) #58 GZIP 0ms 8276 bytes
+May 29, 2023 15:08:03.412 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.412 [139932960213816] DEBUG - Request: [172.24.0.2:42896 (WAN)] GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (3 live) #5a GZIP
+May 29, 2023 15:08:03.412 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.412 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.412 [139932960213816] DEBUG - [Req#5a] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:08:03.412 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css is 80927 (of total: 80927).
+May 29, 2023 15:08:03.412 [139932947118904] DEBUG - Request: [172.24.0.2:42900 (WAN)] GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (4 live) #5c GZIP
+May 29, 2023 15:08:03.412 [139932960213816] DEBUG - Request: [172.24.0.2:42916 (WAN)] GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (4 live) #5d GZIP
+May 29, 2023 15:08:03.412 [139932976917304] DEBUG - Completed: [172.24.0.2:42896] 200 GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (4 live) #5a GZIP 0ms 80927 bytes
+May 29, 2023 15:08:03.412 [139932947118904] DEBUG - [Req#5c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:08:03.412 [139932960213816] DEBUG - [Req#5d] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:08:03.412 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css is 458760 (of total: 458760).
+May 29, 2023 15:08:03.412 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js is 1792484 (of total: 1792484).
+May 29, 2023 15:08:03.413 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.413 [139932938574648] DEBUG - Request: [172.24.0.2:42932 (WAN)] GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (4 live) #5e GZIP
+May 29, 2023 15:08:03.413 [139932938574648] DEBUG - [Req#5e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:08:03.413 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js is 2958057 (of total: 2958057).
+May 29, 2023 15:08:03.426 [139932974807864] DEBUG - Completed: [172.24.0.2:42900] 200 GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (4 live) #5c GZIP 14ms 458760 bytes
+May 29, 2023 15:08:03.438 [139932974807864] DEBUG - Completed: [172.24.0.2:42916] 200 GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (3 live) #5d GZIP 25ms 1792484 bytes
+May 29, 2023 15:08:03.443 [139932974807864] DEBUG - Completed: [172.24.0.2:42932] 200 GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (2 live) #5e GZIP 30ms 2958057 bytes
+May 29, 2023 15:08:03.854 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.855 [139932960213816] DEBUG - Request: [172.24.0.2:42938 (WAN)] GET /web/translations/en.json (2 live) #60 GZIP
+May 29, 2023 15:08:03.855 [139932960213816] DEBUG - [Req#60] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json"
+May 29, 2023 15:08:03.855 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json is 2 (of total: 2).
+May 29, 2023 15:08:03.855 [139932974807864] DEBUG - Completed: [172.24.0.2:42938] 200 GET /web/translations/en.json (2 live) #60 GZIP 0ms 2 bytes
+May 29, 2023 15:08:03.894 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.894 [139932947118904] DEBUG - Request: [172.24.0.2:42954 (WAN)] GET /web/static/b38a559594ac52d049ba.png (2 live) #64 GZIP
+May 29, 2023 15:08:03.894 [139932947118904] DEBUG - [Req#64] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png"
+May 29, 2023 15:08:03.894 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png is 54413 (of total: 54413).
+May 29, 2023 15:08:03.894 [139932974807864] DEBUG - Completed: [172.24.0.2:42954] 200 GET /web/static/b38a559594ac52d049ba.png (2 live) #64 GZIP 0ms 54413 bytes
+May 29, 2023 15:08:03.940 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.940 [139932974807864] DEBUG - Request: [172.24.0.2:42960 (WAN)] GET /media/providers (2 live) #66 GZIP
+May 29, 2023 15:08:03.941 [139932974807864] DEBUG - Completed: [172.24.0.2:42960] 401 GET /media/providers (2 live) #66 GZIP 0ms 357 bytes
+May 29, 2023 15:08:03.943 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.944 [139932974807864] DEBUG - Request: [172.24.0.2:42976 (WAN)] GET / (2 live) #68 GZIP
+May 29, 2023 15:08:03.944 [139932974807864] DEBUG - Completed: [172.24.0.2:42976] 401 GET / (2 live) #68 GZIP 0ms 435 bytes
+May 29, 2023 15:08:03.957 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:03.957 [139932938574648] DEBUG - Request: [172.24.0.2:42986 (WAN)] GET /identity (2 live) #6a GZIP
+May 29, 2023 15:08:03.957 [139932974807864] DEBUG - Completed: [172.24.0.2:42986] 200 GET /identity (2 live) #6a GZIP 0ms 451 bytes
+May 29, 2023 15:08:09.650 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:09.651 [139932960213816] DEBUG - Request: [172.24.0.2:33670 (WAN)] GET /web/index.html (2 live) #6c GZIP
+May 29, 2023 15:08:09.651 [139932960213816] DEBUG - [Req#6c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html"
+May 29, 2023 15:08:09.651 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html is 8276 (of total: 8276).
+May 29, 2023 15:08:09.651 [139932974807864] DEBUG - Completed: [172.24.0.2:33670] 200 GET /web/index.html (2 live) #6c GZIP 0ms 8276 bytes
+May 29, 2023 15:08:09.677 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:09.677 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:09.677 [139932947118904] DEBUG - Request: [172.24.0.2:33686 (WAN)] GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (3 live) #6e GZIP
+May 29, 2023 15:08:09.677 [139932938574648] DEBUG - Request: [172.24.0.2:33702 (WAN)] GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (3 live) #70 GZIP
+May 29, 2023 15:08:09.677 [139932947118904] DEBUG - [Req#6e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:08:09.677 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css is 80927 (of total: 80927).
+May 29, 2023 15:08:09.677 [139932938574648] DEBUG - [Req#70] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:08:09.677 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css is 458760 (of total: 458760).
+May 29, 2023 15:08:09.678 [139932976917304] DEBUG - Completed: [172.24.0.2:33686] 200 GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (5 live) #6e GZIP 0ms 80927 bytes
+May 29, 2023 15:08:09.678 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:09.678 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:09.678 [139932960213816] DEBUG - Request: [172.24.0.2:33704 (WAN)] GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (5 live) #71 GZIP
+May 29, 2023 15:08:09.678 [139932960213816] DEBUG - [Req#71] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:08:09.678 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js is 1792484 (of total: 1792484).
+May 29, 2023 15:08:09.678 [139932976917304] DEBUG - Completed: [172.24.0.2:33702] 200 GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (4 live) #70 GZIP 1ms 458760 bytes
+May 29, 2023 15:08:09.679 [139932947118904] DEBUG - Request: [172.24.0.2:33708 (WAN)] GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (3 live) #72 GZIP
+May 29, 2023 15:08:09.679 [139932947118904] DEBUG - [Req#72] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:08:09.679 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js is 2958057 (of total: 2958057).
+May 29, 2023 15:08:09.681 [139932976917304] DEBUG - Completed: [172.24.0.2:33704] 200 GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (3 live) #71 GZIP 3ms 1792484 bytes
+May 29, 2023 15:08:09.686 [139932974807864] DEBUG - Completed: [172.24.0.2:33708] 200 GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (2 live) #72 GZIP 7ms 2958057 bytes
+May 29, 2023 15:08:10.150 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:10.150 [139932938574648] DEBUG - Request: [172.24.0.2:33720 (WAN)] GET /web/translations/en.json (2 live) #73 GZIP
+May 29, 2023 15:08:10.150 [139932938574648] DEBUG - [Req#73] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json"
+May 29, 2023 15:08:10.150 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json is 2 (of total: 2).
+May 29, 2023 15:08:10.150 [139932974807864] DEBUG - Completed: [172.24.0.2:33720] 200 GET /web/translations/en.json (2 live) #73 GZIP 0ms 2 bytes
+May 29, 2023 15:08:10.184 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:10.184 [139932960213816] DEBUG - Request: [172.24.0.2:33722 (WAN)] GET /web/static/b38a559594ac52d049ba.png (3 live) #78 GZIP
+May 29, 2023 15:08:10.184 [139932960213816] DEBUG - [Req#78] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png"
+May 29, 2023 15:08:10.184 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png is 54413 (of total: 54413).
+May 29, 2023 15:08:10.185 [139932974807864] DEBUG - Completed: [172.24.0.2:33722] 200 GET /web/static/b38a559594ac52d049ba.png (3 live) #78 GZIP 0ms 54413 bytes
+May 29, 2023 15:08:10.224 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:10.224 [139932974807864] DEBUG - Request: [172.24.0.2:33730 (WAN)] GET /media/providers (5 live) #79 GZIP
+May 29, 2023 15:08:10.224 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:10.224 [139932976917304] DEBUG - Request: [172.24.0.2:33746 (WAN)] GET / (5 live) #7a GZIP
+May 29, 2023 15:08:10.224 [139932974807864] DEBUG - Completed: [172.24.0.2:33730] 401 GET /media/providers (5 live) #79 GZIP 0ms 357 bytes
+May 29, 2023 15:08:10.224 [139932974807864] DEBUG - Completed: [172.24.0.2:33746] 401 GET / (5 live) #7a GZIP 0ms 435 bytes
+May 29, 2023 15:08:10.234 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:10.234 [139932947118904] DEBUG - Request: [172.24.0.2:33756 (WAN)] GET /identity (4 live) #7b GZIP
+May 29, 2023 15:08:10.235 [139932974807864] DEBUG - Completed: [172.24.0.2:33756] 200 GET /identity (4 live) #7b GZIP 0ms 451 bytes
+May 29, 2023 15:08:11.074 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:08:11.074 [139932938574648] DEBUG - Request: [172.24.0.2:33764 (WAN)] GET /web/static/b47e1e549516948eea36.woff2 (4 live) #7e
+May 29, 2023 15:08:11.075 [139932938574648] DEBUG - [Req#7e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b47e1e549516948eea36.woff2"
+May 29, 2023 15:08:11.075 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b47e1e549516948eea36.woff2 is 74059 (of total: 74059).
+May 29, 2023 15:08:11.075 [139932974807864] DEBUG - Completed: [172.24.0.2:33764] 200 GET /web/static/b47e1e549516948eea36.woff2 (4 live) #7e 0ms 74059 bytes
+May 29, 2023 15:09:39.330 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:09:39.330 [139932938574648] DEBUG - Request: [172.24.0.2:39794 (WAN)] GET /web/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js (2 live) #80 GZIP
+May 29, 2023 15:09:39.330 [139932938574648] DEBUG - [Req#80] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:09:39.330 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js is 3196 (of total: 3196).
+May 29, 2023 15:09:39.330 [139932974807864] DEBUG - Completed: [172.24.0.2:39794] 200 GET /web/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js (2 live) #80 GZIP 0ms 3196 bytes
+May 29, 2023 15:10:03.353 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:03.353 [139932938574648] DEBUG - Request: [172.24.0.2:40536 (WAN)] GET /web/static/b38a559594ac52d049ba.png (2 live) #84 GZIP
+May 29, 2023 15:10:03.353 [139932938574648] DEBUG - [Req#84] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png"
+May 29, 2023 15:10:03.353 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b38a559594ac52d049ba.png is 54413 (of total: 54413).
+May 29, 2023 15:10:03.354 [139932974807864] DEBUG - Completed: [172.24.0.2:40536] 200 GET /web/static/b38a559594ac52d049ba.png (2 live) #84 GZIP 0ms 54413 bytes
+May 29, 2023 15:10:05.178 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:05.178 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:05.178 [139932938574648] DEBUG - Request: [172.24.0.2:57890 (WAN)] GET /web/js/chunk-123-94312ef01084e12eae4a-plex-4.100.1.29405-21e8735.js (3 live) #86 GZIP
+May 29, 2023 15:10:05.178 [139932938574648] DEBUG - [Req#86] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-123-94312ef01084e12eae4a-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:05.178 [139932960213816] DEBUG - Request: [172.24.0.2:57894 (WAN)] GET /web/js/chunk-112-88a9fb5a1677c8b2f567-plex-4.100.1.29405-21e8735.js (3 live) #88 GZIP
+May 29, 2023 15:10:05.178 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-123-94312ef01084e12eae4a-plex-4.100.1.29405-21e8735.js is 404635 (of total: 404635).
+May 29, 2023 15:10:05.178 [139932960213816] DEBUG - [Req#88] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-112-88a9fb5a1677c8b2f567-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:05.179 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-112-88a9fb5a1677c8b2f567-plex-4.100.1.29405-21e8735.js is 6703 (of total: 6703).
+May 29, 2023 15:10:05.179 [139932976917304] DEBUG - Completed: [172.24.0.2:57894] 200 GET /web/js/chunk-112-88a9fb5a1677c8b2f567-plex-4.100.1.29405-21e8735.js (3 live) #88 GZIP 0ms 6703 bytes
+May 29, 2023 15:10:05.183 [139932974807864] DEBUG - Completed: [172.24.0.2:57890] 200 GET /web/js/chunk-123-94312ef01084e12eae4a-plex-4.100.1.29405-21e8735.js (2 live) #86 GZIP 4ms 404635 bytes
+May 29, 2023 15:10:46.665 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:46.665 [139932938574648] DEBUG - Request: [172.24.0.2:35930 (WAN)] GET /web/index.html (2 live) #89 GZIP
+May 29, 2023 15:10:46.665 [139932938574648] DEBUG - [Req#89] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html"
+May 29, 2023 15:10:46.665 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html is 8276 (of total: 8276).
+May 29, 2023 15:10:46.666 [139932974807864] DEBUG - Completed: [172.24.0.2:35930] 200 GET /web/index.html (2 live) #89 GZIP 0ms 8276 bytes
+May 29, 2023 15:10:46.713 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:46.713 [139932938574648] DEBUG - Request: [172.24.0.2:35946 (WAN)] GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (2 live) #8c GZIP
+May 29, 2023 15:10:46.713 [139932938574648] DEBUG - [Req#8c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:10:46.713 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css is 80927 (of total: 80927).
+May 29, 2023 15:10:46.713 [139932974807864] DEBUG - Completed: [172.24.0.2:35946] 200 GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (2 live) #8c GZIP 0ms 80927 bytes
+May 29, 2023 15:10:46.714 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:46.714 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:46.714 [139932938574648] DEBUG - Request: [172.24.0.2:35958 (WAN)] GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (4 live) #8e GZIP
+May 29, 2023 15:10:46.714 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:46.714 [139932938574648] DEBUG - [Req#8e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:10:46.714 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css is 458760 (of total: 458760).
+May 29, 2023 15:10:46.714 [139932960213816] DEBUG - Request: [172.24.0.2:35972 (WAN)] GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (4 live) #90 GZIP
+May 29, 2023 15:10:46.714 [139932930501432] DEBUG - Request: [172.24.0.2:35974 (WAN)] GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (4 live) #91 GZIP
+May 29, 2023 15:10:46.714 [139932960213816] DEBUG - [Req#90] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:46.714 [139932930501432] DEBUG - [Req#91] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:46.714 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js is 1792484 (of total: 1792484).
+May 29, 2023 15:10:46.714 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js is 2958057 (of total: 2958057).
+May 29, 2023 15:10:46.716 [139932974807864] DEBUG - Completed: [172.24.0.2:35958] 200 GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (4 live) #8e GZIP 1ms 458760 bytes
+May 29, 2023 15:10:46.716 [139932976917304] DEBUG - Completed: [172.24.0.2:35972] 200 GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (3 live) #90 GZIP 2ms 1792484 bytes
+May 29, 2023 15:10:46.718 [139932976917304] DEBUG - Completed: [172.24.0.2:35974] 200 GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (2 live) #91 GZIP 3ms 2958057 bytes
+May 29, 2023 15:10:47.283 [139932974807864] DEBUG - Request: didn't get any data from [::ffff:172.24.0.2]:35976: End of file
+May 29, 2023 15:10:47.283 [139932974807864] DEBUG - Request: didn't get any data from [::ffff:172.24.0.2]:35992: End of file
+May 29, 2023 15:10:47.303 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.303 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.303 [139932938574648] DEBUG - Request: [172.24.0.2:36000 (WAN)] GET /web/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js (8 live) #97 GZIP
+May 29, 2023 15:10:47.303 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.304 [139932960213816] DEBUG - Request: [172.24.0.2:36008 (WAN)] GET /web/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js (8 live) #98 GZIP
+May 29, 2023 15:10:47.304 [139932938574648] DEBUG - [Req#97] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.304 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.304 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js is 44714 (of total: 44714).
+May 29, 2023 15:10:47.304 [139932960213816] DEBUG - [Req#98] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.304 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.304 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js is 3196 (of total: 3196).
+May 29, 2023 15:10:47.304 [139932930501432] DEBUG - Request: [172.24.0.2:36022 (WAN)] GET /web/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js (8 live) #99 GZIP
+May 29, 2023 15:10:47.304 [139932938574648] DEBUG - Request: [172.24.0.2:36032 (WAN)] GET /web/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js (8 live) #9a GZIP
+May 29, 2023 15:10:47.304 [139932976917304] DEBUG - Completed: [172.24.0.2:36000] 200 GET /web/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js (8 live) #97 GZIP 0ms 44714 bytes
+May 29, 2023 15:10:47.304 [139932930501432] DEBUG - [Req#99] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.304 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js is 24902 (of total: 24902).
+May 29, 2023 15:10:47.304 [139932938574648] DEBUG - [Req#9a] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.304 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js is 104520 (of total: 104520).
+May 29, 2023 15:10:47.304 [139932976917304] DEBUG - Completed: [172.24.0.2:36022] 200 GET /web/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js (7 live) #99 GZIP 0ms 24902 bytes
+May 29, 2023 15:10:47.304 [139932974807864] DEBUG - Completed: [172.24.0.2:36008] 200 GET /web/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js (7 live) #98 GZIP 0ms 3196 bytes
+May 29, 2023 15:10:47.305 [139932976917304] DEBUG - Completed: [172.24.0.2:36032] 200 GET /web/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js (7 live) #9a GZIP 0ms 104520 bytes
+May 29, 2023 15:10:47.305 [139932886760248] DEBUG - Request: [172.24.0.2:36042 (WAN)] GET /web/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js (4 live) #9b GZIP
+May 29, 2023 15:10:47.305 [139932886760248] DEBUG - [Req#9b] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.305 [139932886760248] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js is 47308 (of total: 47308).
+May 29, 2023 15:10:47.305 [139932976917304] DEBUG - Completed: [172.24.0.2:36042] 200 GET /web/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js (4 live) #9b GZIP 0ms 47308 bytes
+May 29, 2023 15:10:47.313 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.313 [139932930501432] DEBUG - Request: [172.24.0.2:36050 (WAN)] GET /web/js/chunk-61-affc2c85ea04279ae2f0-plex-4.100.1.29405-21e8735.js (4 live) #9c GZIP
+May 29, 2023 15:10:47.313 [139932930501432] DEBUG - [Req#9c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-61-affc2c85ea04279ae2f0-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.313 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-61-affc2c85ea04279ae2f0-plex-4.100.1.29405-21e8735.js is 33750 (of total: 33750).
+May 29, 2023 15:10:47.314 [139932976917304] DEBUG - Completed: [172.24.0.2:36050] 200 GET /web/js/chunk-61-affc2c85ea04279ae2f0-plex-4.100.1.29405-21e8735.js (4 live) #9c GZIP 0ms 33750 bytes
+May 29, 2023 15:10:47.319 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.319 [139932938574648] DEBUG - Request: [172.24.0.2:36052 (WAN)] GET /web/js/chunk-317-2798e4dbb1bdeeade03d-plex-4.100.1.29405-21e8735.js (4 live) #a2 GZIP
+May 29, 2023 15:10:47.319 [139932938574648] DEBUG - [Req#a2] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-317-2798e4dbb1bdeeade03d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.319 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-317-2798e4dbb1bdeeade03d-plex-4.100.1.29405-21e8735.js is 14976 (of total: 14976).
+May 29, 2023 15:10:47.319 [139932976917304] DEBUG - Completed: [172.24.0.2:36052] 200 GET /web/js/chunk-317-2798e4dbb1bdeeade03d-plex-4.100.1.29405-21e8735.js (4 live) #a2 GZIP 0ms 14976 bytes
+May 29, 2023 15:10:47.327 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.327 [139932960213816] DEBUG - Request: [172.24.0.2:36058 (WAN)] GET /web/js/chunk-931-9923eea13b4db8227cff-plex-4.100.1.29405-21e8735.js (4 live) #a4 GZIP
+May 29, 2023 15:10:47.327 [139932960213816] DEBUG - [Req#a4] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-931-9923eea13b4db8227cff-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.327 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-931-9923eea13b4db8227cff-plex-4.100.1.29405-21e8735.js is 3273 (of total: 3273).
+May 29, 2023 15:10:47.327 [139932976917304] DEBUG - Completed: [172.24.0.2:36058] 200 GET /web/js/chunk-931-9923eea13b4db8227cff-plex-4.100.1.29405-21e8735.js (4 live) #a4 GZIP 0ms 3273 bytes
+May 29, 2023 15:10:47.332 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.332 [139932886760248] DEBUG - Request: [172.24.0.2:36062 (WAN)] GET /web/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js (4 live) #a6 GZIP
+May 29, 2023 15:10:47.332 [139932886760248] DEBUG - [Req#a6] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.332 [139932886760248] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js is 101016 (of total: 101016).
+May 29, 2023 15:10:47.332 [139932976917304] DEBUG - Completed: [172.24.0.2:36062] 200 GET /web/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js (4 live) #a6 GZIP 0ms 101016 bytes
+May 29, 2023 15:10:47.346 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.346 [139932930501432] DEBUG - Request: [172.24.0.2:36074 (WAN)] GET /web/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js (4 live) #a8 GZIP
+May 29, 2023 15:10:47.346 [139932930501432] DEBUG - [Req#a8] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.346 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js is 10300 (of total: 10300).
+May 29, 2023 15:10:47.346 [139932976917304] DEBUG - Completed: [172.24.0.2:36074] 200 GET /web/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js (4 live) #a8 GZIP 0ms 10300 bytes
+May 29, 2023 15:10:47.347 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.347 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.347 [139932938574648] DEBUG - Request: [172.24.0.2:36080 (WAN)] GET /web/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js (5 live) #aa GZIP
+May 29, 2023 15:10:47.347 [139932938574648] DEBUG - [Req#aa] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.347 [139932960213816] DEBUG - Request: [172.24.0.2:36082 (WAN)] GET /web/js/chunk-670-f6baab35defeddd84c96-plex-4.100.1.29405-21e8735.js (5 live) #ac GZIP
+May 29, 2023 15:10:47.347 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js is 89763 (of total: 89763).
+May 29, 2023 15:10:47.347 [139932960213816] DEBUG - [Req#ac] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-670-f6baab35defeddd84c96-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.347 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-670-f6baab35defeddd84c96-plex-4.100.1.29405-21e8735.js is 967 (of total: 967).
+May 29, 2023 15:10:47.347 [139932976917304] DEBUG - Completed: [172.24.0.2:36082] 200 GET /web/js/chunk-670-f6baab35defeddd84c96-plex-4.100.1.29405-21e8735.js (5 live) #ac GZIP 0ms 967 bytes
+May 29, 2023 15:10:47.347 [139932974807864] DEBUG - Completed: [172.24.0.2:36080] 200 GET /web/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js (5 live) #aa GZIP 0ms 89763 bytes
+May 29, 2023 15:10:47.349 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.349 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.349 [139932886760248] DEBUG - Request: [172.24.0.2:36088 (WAN)] GET /web/js/chunk-980-e3e7c242785c9cea9926-plex-4.100.1.29405-21e8735.js (5 live) #ad GZIP
+May 29, 2023 15:10:47.350 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.350 [139932886760248] DEBUG - [Req#ad] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-980-e3e7c242785c9cea9926-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.350 [139932930501432] DEBUG - Request: [172.24.0.2:36092 (WAN)] GET /web/js/chunk-613-a0a7d1e34df0b1b317ad-plex-4.100.1.29405-21e8735.js (6 live) #b0 GZIP
+May 29, 2023 15:10:47.350 [139932886760248] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-980-e3e7c242785c9cea9926-plex-4.100.1.29405-21e8735.js is 23977 (of total: 23977).
+May 29, 2023 15:10:47.350 [139932930501432] DEBUG - [Req#b0] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-613-a0a7d1e34df0b1b317ad-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.350 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-613-a0a7d1e34df0b1b317ad-plex-4.100.1.29405-21e8735.js is 77753 (of total: 77753).
+May 29, 2023 15:10:47.350 [139932938574648] DEBUG - Request: [172.24.0.2:36102 (WAN)] GET /web/js/chunk-592-f5e1c13e3e4405f3b2d6-plex-4.100.1.29405-21e8735.js (6 live) #b1 GZIP
+May 29, 2023 15:10:47.350 [139932974807864] DEBUG - Completed: [172.24.0.2:36088] 200 GET /web/js/chunk-980-e3e7c242785c9cea9926-plex-4.100.1.29405-21e8735.js (6 live) #ad GZIP 0ms 23977 bytes
+May 29, 2023 15:10:47.350 [139932938574648] DEBUG - [Req#b1] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-592-f5e1c13e3e4405f3b2d6-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.350 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-592-f5e1c13e3e4405f3b2d6-plex-4.100.1.29405-21e8735.js is 2380 (of total: 2380).
+May 29, 2023 15:10:47.351 [139932974807864] DEBUG - Completed: [172.24.0.2:36102] 200 GET /web/js/chunk-592-f5e1c13e3e4405f3b2d6-plex-4.100.1.29405-21e8735.js (5 live) #b1 GZIP 0ms 2380 bytes
+May 29, 2023 15:10:47.351 [139932974807864] DEBUG - Completed: [172.24.0.2:36092] 200 GET /web/js/chunk-613-a0a7d1e34df0b1b317ad-plex-4.100.1.29405-21e8735.js (5 live) #b0 GZIP 1ms 77753 bytes
+May 29, 2023 15:10:47.365 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.365 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.365 [139932960213816] DEBUG - Request: [172.24.0.2:36116 (WAN)] GET /web/js/chunk-774-72bfcd0fcb32e48d5bc6-plex-4.100.1.29405-21e8735.js (5 live) #b2 GZIP
+May 29, 2023 15:10:47.365 [139932886760248] DEBUG - Request: [172.24.0.2:36122 (WAN)] GET /web/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js (5 live) #b6 GZIP
+May 29, 2023 15:10:47.365 [139932960213816] DEBUG - [Req#b2] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-774-72bfcd0fcb32e48d5bc6-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.365 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-774-72bfcd0fcb32e48d5bc6-plex-4.100.1.29405-21e8735.js is 1571 (of total: 1571).
+May 29, 2023 15:10:47.365 [139932886760248] DEBUG - [Req#b6] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.365 [139932886760248] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js is 23021 (of total: 23021).
+May 29, 2023 15:10:47.365 [139932976917304] DEBUG - Completed: [172.24.0.2:36116] 200 GET /web/js/chunk-774-72bfcd0fcb32e48d5bc6-plex-4.100.1.29405-21e8735.js (5 live) #b2 GZIP 0ms 1571 bytes
+May 29, 2023 15:10:47.365 [139932976917304] DEBUG - Completed: [172.24.0.2:36122] 200 GET /web/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js (4 live) #b6 GZIP 0ms 23021 bytes
+May 29, 2023 15:10:47.382 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.382 [139932930501432] DEBUG - Request: [172.24.0.2:36132 (WAN)] GET /web/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js (9 live) #b7 GZIP
+May 29, 2023 15:10:47.382 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.382 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.382 [139932930501432] DEBUG - [Req#b7] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.383 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.383 [139932938574648] DEBUG - Request: [172.24.0.2:36138 (WAN)] GET /web/js/chunk-333-016a30e03e42de9f09dd-plex-4.100.1.29405-21e8735.js (9 live) #ba GZIP
+May 29, 2023 15:10:47.383 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js is 131538 (of total: 131538).
+May 29, 2023 15:10:47.383 [139932938574648] DEBUG - [Req#ba] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-333-016a30e03e42de9f09dd-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.383 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.383 [139932930501432] DEBUG - Request: [172.24.0.2:36148 (WAN)] GET /web/js/chunk-282-eeadccb33ca381501b80-plex-4.100.1.29405-21e8735.js (9 live) #bb GZIP
+May 29, 2023 15:10:47.383 [139932960213816] DEBUG - Request: [172.24.0.2:36160 (WAN)] GET /web/js/chunk-735-7590a699af5a9ea9fd05-plex-4.100.1.29405-21e8735.js (9 live) #bc GZIP
+May 29, 2023 15:10:47.383 [139932976917304] DEBUG - Completed: [172.24.0.2:36132] 200 GET /web/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js (9 live) #b7 GZIP 0ms 131538 bytes
+May 29, 2023 15:10:47.383 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.383 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-333-016a30e03e42de9f09dd-plex-4.100.1.29405-21e8735.js is 36953 (of total: 36953).
+May 29, 2023 15:10:47.383 [139932886760248] DEBUG - Request: [172.24.0.2:36164 (WAN)] GET /web/js/chunk-785-7dfba974788d9abf5abb-plex-4.100.1.29405-21e8735.js (8 live) #bd GZIP
+May 29, 2023 15:10:47.383 [139932974807864] DEBUG - Completed: [172.24.0.2:36138] 200 GET /web/js/chunk-333-016a30e03e42de9f09dd-plex-4.100.1.29405-21e8735.js (8 live) #ba GZIP 0ms 36953 bytes
+May 29, 2023 15:10:47.383 [139932960213816] DEBUG - [Req#bc] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-735-7590a699af5a9ea9fd05-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.383 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-735-7590a699af5a9ea9fd05-plex-4.100.1.29405-21e8735.js is 4693 (of total: 4693).
+May 29, 2023 15:10:47.383 [139932884650808] DEBUG - Request: [172.24.0.2:36174 (WAN)] GET /web/js/chunk-639-82d3d64fc49879bd7a62-plex-4.100.1.29405-21e8735.js (7 live) #be GZIP
+May 29, 2023 15:10:47.384 [139932974807864] DEBUG - Completed: [172.24.0.2:36160] 200 GET /web/js/chunk-735-7590a699af5a9ea9fd05-plex-4.100.1.29405-21e8735.js (7 live) #bc GZIP 0ms 4693 bytes
+May 29, 2023 15:10:47.384 [139932886760248] DEBUG - [Req#bd] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-785-7dfba974788d9abf5abb-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.384 [139932884650808] DEBUG - [Req#be] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-639-82d3d64fc49879bd7a62-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.384 [139932884650808] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-639-82d3d64fc49879bd7a62-plex-4.100.1.29405-21e8735.js is 618514 (of total: 618514).
+May 29, 2023 15:10:47.384 [139932930501432] DEBUG - [Req#bb] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-282-eeadccb33ca381501b80-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.384 [139932886760248] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-785-7dfba974788d9abf5abb-plex-4.100.1.29405-21e8735.js is 27525 (of total: 27525).
+May 29, 2023 15:10:47.384 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-282-eeadccb33ca381501b80-plex-4.100.1.29405-21e8735.js is 14324 (of total: 14324).
+May 29, 2023 15:10:47.384 [139932976917304] DEBUG - Completed: [172.24.0.2:36148] 200 GET /web/js/chunk-282-eeadccb33ca381501b80-plex-4.100.1.29405-21e8735.js (6 live) #bb GZIP 1ms 14324 bytes
+May 29, 2023 15:10:47.384 [139932976917304] DEBUG - Completed: [172.24.0.2:36174] 200 GET /web/js/chunk-639-82d3d64fc49879bd7a62-plex-4.100.1.29405-21e8735.js (5 live) #be GZIP 1ms 618514 bytes
+May 29, 2023 15:10:47.384 [139932974807864] DEBUG - Completed: [172.24.0.2:36164] 200 GET /web/js/chunk-785-7dfba974788d9abf5abb-plex-4.100.1.29405-21e8735.js (4 live) #bd GZIP 1ms 27525 bytes
+May 29, 2023 15:10:47.429 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:47.429 [139932960213816] DEBUG - Request: [172.24.0.2:36186 (WAN)] GET /web/js/chunk-519-bf13ba9b4824cb8a3f3b-plex-4.100.1.29405-21e8735.js (4 live) #bf GZIP
+May 29, 2023 15:10:47.429 [139932960213816] DEBUG - [Req#bf] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-519-bf13ba9b4824cb8a3f3b-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:47.429 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-519-bf13ba9b4824cb8a3f3b-plex-4.100.1.29405-21e8735.js is 4607 (of total: 4607).
+May 29, 2023 15:10:47.429 [139932976917304] DEBUG - Completed: [172.24.0.2:36186] 200 GET /web/js/chunk-519-bf13ba9b4824cb8a3f3b-plex-4.100.1.29405-21e8735.js (4 live) #bf GZIP 0ms 4607 bytes
+May 29, 2023 15:10:57.959 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:57.959 [139932976917304] DEBUG - Request: [172.24.0.2:58396 (WAN)] GET / (4 live) #c6 GZIP
+May 29, 2023 15:10:57.959 [139932976917304] DEBUG - Completed: [172.24.0.2:58396] 401 GET / (4 live) #c6 GZIP 0ms 435 bytes
+May 29, 2023 15:10:58.009 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:58.009 [139932960213816] DEBUG - Request: [172.24.0.2:58406 (WAN)] GET /web/index.html (4 live) #c8 GZIP
+May 29, 2023 15:10:58.009 [139932960213816] DEBUG - [Req#c8] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html"
+May 29, 2023 15:10:58.009 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html is 8276 (of total: 8276).
+May 29, 2023 15:10:58.009 [139932976917304] DEBUG - Completed: [172.24.0.2:58406] 200 GET /web/index.html (4 live) #c8 GZIP 0ms 8276 bytes
+May 29, 2023 15:10:58.039 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:58.039 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:58.040 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:58.040 [139932960213816] DEBUG - Request: [172.24.0.2:58422 (WAN)] GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (7 live) #ca GZIP
+May 29, 2023 15:10:58.040 [139932960213816] DEBUG - [Req#ca] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:10:58.040 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css is 80927 (of total: 80927).
+May 29, 2023 15:10:58.040 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:58.040 [139932938574648] DEBUG - Request: [172.24.0.2:58436 (WAN)] GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (7 live) #cc GZIP
+May 29, 2023 15:10:58.040 [139932949285688] DEBUG - Request: [172.24.0.2:58444 (WAN)] GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (7 live) #cd GZIP
+May 29, 2023 15:10:58.040 [139932938574648] DEBUG - [Req#cc] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:10:58.040 [139932974807864] DEBUG - Completed: [172.24.0.2:58422] 200 GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (7 live) #ca GZIP 0ms 80927 bytes
+May 29, 2023 15:10:58.040 [139932930501432] DEBUG - Request: [172.24.0.2:58456 (WAN)] GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (7 live) #ce GZIP
+May 29, 2023 15:10:58.040 [139932949285688] DEBUG - [Req#cd] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:58.040 [139932930501432] DEBUG - [Req#ce] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:10:58.040 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js is 2958057 (of total: 2958057).
+May 29, 2023 15:10:58.040 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js is 1792484 (of total: 1792484).
+May 29, 2023 15:10:58.041 [139932938574648] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css is 458760 (of total: 458760).
+May 29, 2023 15:10:58.042 [139932976917304] DEBUG - Completed: [172.24.0.2:58436] 200 GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (6 live) #cc GZIP 2ms 458760 bytes
+May 29, 2023 15:10:58.042 [139932976917304] DEBUG - Completed: [172.24.0.2:58444] 200 GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (5 live) #cd GZIP 2ms 1792484 bytes
+May 29, 2023 15:10:58.210 [139932976917304] DEBUG - Completed: [172.24.0.2:58456] 200 GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (4 live) #ce GZIP 170ms 2958057 bytes
+May 29, 2023 15:10:58.641 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:58.641 [139932960213816] DEBUG - Request: [172.24.0.2:58460 (WAN)] GET /web/translations/en.json (4 live) #cf GZIP
+May 29, 2023 15:10:58.641 [139932960213816] DEBUG - [Req#cf] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json"
+May 29, 2023 15:10:58.641 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json is 2 (of total: 2).
+May 29, 2023 15:10:58.641 [139932976917304] DEBUG - Completed: [172.24.0.2:58460] 200 GET /web/translations/en.json (4 live) #cf GZIP 0ms 2 bytes
+May 29, 2023 15:10:58.715 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:58.715 [139932976917304] DEBUG - Request: [172.24.0.2:58466 (WAN)] GET /media/providers (5 live) #d4 GZIP
+May 29, 2023 15:10:58.715 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:58.715 [139932974807864] DEBUG - Request: [172.24.0.2:58474 (WAN)] GET / (5 live) #d6 GZIP
+May 29, 2023 15:10:58.715 [139932976917304] DEBUG - Completed: [172.24.0.2:58466] 401 GET /media/providers (5 live) #d4 GZIP 0ms 357 bytes
+May 29, 2023 15:10:58.715 [139932974807864] DEBUG - Completed: [172.24.0.2:58474] 401 GET / (4 live) #d6 GZIP 0ms 435 bytes
+May 29, 2023 15:10:58.731 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:58.731 [139932949285688] DEBUG - Request: [172.24.0.2:58490 (WAN)] GET /identity (4 live) #d7 GZIP
+May 29, 2023 15:10:58.731 [139932976917304] DEBUG - Completed: [172.24.0.2:58490] 200 GET /identity (4 live) #d7 GZIP 0ms 451 bytes
+May 29, 2023 15:10:59.546 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:10:59.546 [139932960213816] DEBUG - Request: [172.24.0.2:58496 (WAN)] GET /web/static/b47e1e549516948eea36.woff2 (4 live) #da
+May 29, 2023 15:10:59.546 [139932960213816] DEBUG - [Req#da] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b47e1e549516948eea36.woff2"
+May 29, 2023 15:10:59.546 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/static/b47e1e549516948eea36.woff2 is 74059 (of total: 74059).
+May 29, 2023 15:10:59.546 [139932976917304] DEBUG - Completed: [172.24.0.2:58496] 200 GET /web/static/b47e1e549516948eea36.woff2 (4 live) #da 0ms 74059 bytes
+May 29, 2023 15:11:29.825 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:29.825 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:29.825 [139932960213816] DEBUG - Request: [172.24.0.2:41942 (WAN)] GET /web/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js (3 live) #dc GZIP
+May 29, 2023 15:11:29.825 [139932960213816] DEBUG - [Req#dc] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:11:29.825 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js is 24902 (of total: 24902).
+May 29, 2023 15:11:29.825 [139932949285688] DEBUG - Request: [172.24.0.2:41952 (WAN)] GET /web/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js (3 live) #e0 GZIP
+May 29, 2023 15:11:29.825 [139932949285688] DEBUG - [Req#e0] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:11:29.825 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js is 44714 (of total: 44714).
+May 29, 2023 15:11:29.825 [139932976917304] DEBUG - Completed: [172.24.0.2:41942] 200 GET /web/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js (3 live) #dc GZIP 0ms 24902 bytes
+May 29, 2023 15:11:29.826 [139932976917304] DEBUG - Completed: [172.24.0.2:41952] 200 GET /web/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js (2 live) #e0 GZIP 1ms 44714 bytes
+May 29, 2023 15:11:29.827 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:29.828 [139932960213816] DEBUG - Request: [172.24.0.2:41968 (WAN)] GET /web/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.css (2 live) #e1 GZIP
+May 29, 2023 15:11:29.828 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:29.828 [139932960213816] DEBUG - [Req#e1] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:11:29.828 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.css is 21424 (of total: 21424).
+May 29, 2023 15:11:29.828 [139932976917304] DEBUG - Completed: [172.24.0.2:41968] 200 GET /web/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.css (4 live) #e1 GZIP 0ms 21424 bytes
+May 29, 2023 15:11:29.828 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:29.828 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:29.828 [139932960213816] DEBUG - Request: [172.24.0.2:41978 (WAN)] GET /web/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js (4 live) #e4 GZIP
+May 29, 2023 15:11:29.828 [139932960213816] DEBUG - [Req#e4] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:11:29.828 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js is 104520 (of total: 104520).
+May 29, 2023 15:11:29.828 [139932949285688] DEBUG - Request: [172.24.0.2:41994 (WAN)] GET /web/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.css (4 live) #e5 GZIP
+May 29, 2023 15:11:29.828 [139932947118904] DEBUG - Request: [172.24.0.2:42002 (WAN)] GET /web/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js (4 live) #e6 GZIP
+May 29, 2023 15:11:29.829 [139932974807864] DEBUG - Completed: [172.24.0.2:41978] 200 GET /web/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js (4 live) #e4 GZIP 0ms 104520 bytes
+May 29, 2023 15:11:29.829 [139932949285688] DEBUG - [Req#e5] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:11:29.829 [139932947118904] DEBUG - [Req#e6] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:11:29.829 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js is 47308 (of total: 47308).
+May 29, 2023 15:11:29.829 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.css is 4593 (of total: 4593).
+May 29, 2023 15:11:29.829 [139932974807864] DEBUG - Completed: [172.24.0.2:41994] 200 GET /web/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.css (3 live) #e5 GZIP 0ms 4593 bytes
+May 29, 2023 15:11:29.829 [139932974807864] DEBUG - Completed: [172.24.0.2:42002] 200 GET /web/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js (2 live) #e6 GZIP 0ms 47308 bytes
+May 29, 2023 15:11:52.540 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:52.540 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:52.540 [139932947118904] DEBUG - Request: [172.24.0.2:60818 (WAN)] GET /web/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.css (4 live) #ec GZIP
+May 29, 2023 15:11:52.540 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:52.540 [139932947118904] DEBUG - [Req#ec] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:11:52.540 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.css is 19720 (of total: 19720).
+May 29, 2023 15:11:52.540 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:11:52.540 [139932960213816] DEBUG - Request: [172.24.0.2:60816 (WAN)] GET /web/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js (5 live) #e7 GZIP
+May 29, 2023 15:11:52.541 [139932949285688] DEBUG - Request: [172.24.0.2:60828 (WAN)] GET /web/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js (5 live) #ed GZIP
+May 29, 2023 15:11:52.541 [139932960213816] DEBUG - [Req#e7] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:11:52.541 [139932976917304] DEBUG - Completed: [172.24.0.2:60818] 200 GET /web/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.css (5 live) #ec GZIP 0ms 19720 bytes
+May 29, 2023 15:11:52.541 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js is 101016 (of total: 101016).
+May 29, 2023 15:11:52.541 [139932947118904] DEBUG - Request: [172.24.0.2:60830 (WAN)] GET /web/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js (5 live) #ee GZIP
+May 29, 2023 15:11:52.541 [139932976917304] DEBUG - Completed: [172.24.0.2:60816] 200 GET /web/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js (4 live) #e7 GZIP 0ms 101016 bytes
+May 29, 2023 15:11:52.541 [139932949285688] DEBUG - [Req#ed] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:11:52.541 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js is 89763 (of total: 89763).
+May 29, 2023 15:11:52.541 [139932947118904] DEBUG - [Req#ee] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:11:52.541 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js is 10300 (of total: 10300).
+May 29, 2023 15:11:52.541 [139932976917304] DEBUG - Completed: [172.24.0.2:60828] 200 GET /web/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js (3 live) #ed GZIP 0ms 89763 bytes
+May 29, 2023 15:11:52.542 [139932974807864] DEBUG - Completed: [172.24.0.2:60830] 200 GET /web/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js (2 live) #ee GZIP 1ms 10300 bytes
+May 29, 2023 15:13:02.568 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:13:02.568 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:13:02.568 [139932947118904] DEBUG - Request: [172.24.0.2:55820 (WAN)] GET /web/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js (4 live) #ef GZIP
+May 29, 2023 15:13:02.568 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:13:02.568 [139932947118904] DEBUG - [Req#ef] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:13:02.568 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js is 23021 (of total: 23021).
+May 29, 2023 15:13:02.568 [139932960213816] DEBUG - Request: [172.24.0.2:55822 (WAN)] GET /web/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js (4 live) #f4 GZIP
+May 29, 2023 15:13:02.568 [139932949285688] DEBUG - Request: [172.24.0.2:55824 (WAN)] GET /web/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.css (4 live) #f5 GZIP
+May 29, 2023 15:13:02.568 [139932974807864] DEBUG - Completed: [172.24.0.2:55820] 200 GET /web/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js (4 live) #ef GZIP 0ms 23021 bytes
+May 29, 2023 15:13:02.568 [139932960213816] DEBUG - [Req#f4] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:13:02.568 [139932949285688] DEBUG - [Req#f5] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:13:02.568 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.css is 18475 (of total: 18475).
+May 29, 2023 15:13:02.568 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js is 131538 (of total: 131538).
+May 29, 2023 15:13:02.569 [139932976917304] DEBUG - Completed: [172.24.0.2:55824] 200 GET /web/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.css (3 live) #f5 GZIP 0ms 18475 bytes
+May 29, 2023 15:13:02.569 [139932976917304] DEBUG - Completed: [172.24.0.2:55822] 200 GET /web/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js (3 live) #f4 GZIP 1ms 131538 bytes
+May 29, 2023 15:26:49.437 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.437 [139932949285688] DEBUG - Request: [172.24.0.2:55376 (WAN)] GET /web/index.html (2 live) #f6 GZIP
+May 29, 2023 15:26:49.437 [139932949285688] DEBUG - [Req#f6] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html"
+May 29, 2023 15:26:49.437 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/index.html is 8276 (of total: 8276).
+May 29, 2023 15:26:49.437 [139932974807864] DEBUG - Completed: [172.24.0.2:55376] 200 GET /web/index.html (2 live) #f6 GZIP 0ms 8276 bytes
+May 29, 2023 15:26:49.457 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.458 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.458 [139932949285688] DEBUG - Request: [172.24.0.2:55390 (WAN)] GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (4 live) #fa GZIP
+May 29, 2023 15:26:49.458 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.458 [139932949285688] DEBUG - [Req#fa] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:26:49.458 [139932960213816] DEBUG - Request: [172.24.0.2:55402 (WAN)] GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (4 live) #fc GZIP
+May 29, 2023 15:26:49.458 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css is 80927 (of total: 80927).
+May 29, 2023 15:26:49.458 [139932960213816] DEBUG - [Req#fc] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:26:49.458 [139932947118904] DEBUG - Request: [172.24.0.2:55410 (WAN)] GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (4 live) #fd GZIP
+May 29, 2023 15:26:49.458 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css is 458760 (of total: 458760).
+May 29, 2023 15:26:49.458 [139932947118904] DEBUG - [Req#fd] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:49.458 [139932976917304] DEBUG - Completed: [172.24.0.2:55390] 200 GET /web/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.css (4 live) #fa GZIP 0ms 80927 bytes
+May 29, 2023 15:26:49.458 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js is 1792484 (of total: 1792484).
+May 29, 2023 15:26:49.459 [139932974807864] DEBUG - Completed: [172.24.0.2:55402] 200 GET /web/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.css (4 live) #fc GZIP 1ms 458760 bytes
+May 29, 2023 15:26:49.460 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.460 [139932949285688] DEBUG - Request: [172.24.0.2:55420 (WAN)] GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (3 live) #fe GZIP
+May 29, 2023 15:26:49.460 [139932949285688] DEBUG - [Req#fe] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:49.460 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js is 2958057 (of total: 2958057).
+May 29, 2023 15:26:49.461 [139932976917304] DEBUG - Completed: [172.24.0.2:55410] 200 GET /web/js/481-481-5f393fa408d672dda346-plex-4.100.1.29405-21e8735.js (3 live) #fd GZIP 2ms 1792484 bytes
+May 29, 2023 15:26:49.516 [139932974807864] DEBUG - Completed: [172.24.0.2:55420] 200 GET /web/js/main-179-d99036186dc05464a41d-plex-4.100.1.29405-21e8735.js (2 live) #fe GZIP 56ms 2958057 bytes
+May 29, 2023 15:26:49.970 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.971 [139932947118904] DEBUG - Request: [172.24.0.2:55428 (WAN)] GET /web/translations/en.json (2 live) #100 GZIP
+May 29, 2023 15:26:49.971 [139932947118904] DEBUG - [Req#100] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json"
+May 29, 2023 15:26:49.971 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/translations/en.json is 2 (of total: 2).
+May 29, 2023 15:26:49.971 [139932974807864] DEBUG - Completed: [172.24.0.2:55428] 200 GET /web/translations/en.json (2 live) #100 GZIP 0ms 2 bytes
+May 29, 2023 15:26:49.978 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.978 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.978 [139932960213816] DEBUG - Request: [172.24.0.2:55436 (WAN)] GET /web/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js (4 live) #104 GZIP
+May 29, 2023 15:26:49.978 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.978 [139932949285688] DEBUG - Request: [172.24.0.2:55440 (WAN)] GET /web/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js (4 live) #106 GZIP
+May 29, 2023 15:26:49.978 [139932960213816] DEBUG - [Req#104] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:49.978 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js is 3196 (of total: 3196).
+May 29, 2023 15:26:49.978 [139932947118904] DEBUG - Request: [172.24.0.2:55442 (WAN)] GET /web/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js (4 live) #107 GZIP
+May 29, 2023 15:26:49.978 [139932949285688] DEBUG - [Req#106] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:49.979 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js is 44714 (of total: 44714).
+May 29, 2023 15:26:49.979 [139932947118904] DEBUG - [Req#107] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:49.979 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js is 24902 (of total: 24902).
+May 29, 2023 15:26:49.979 [139932976917304] DEBUG - Completed: [172.24.0.2:55436] 200 GET /web/js/chunk-81-8fa832941457fb22a9e0-plex-4.100.1.29405-21e8735.js (4 live) #104 GZIP 0ms 3196 bytes
+May 29, 2023 15:26:49.979 [139932974807864] DEBUG - Completed: [172.24.0.2:55442] 200 GET /web/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js (4 live) #107 GZIP 0ms 24902 bytes
+May 29, 2023 15:26:49.979 [139932974807864] DEBUG - Completed: [172.24.0.2:55440] 200 GET /web/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js (2 live) #106 GZIP 0ms 44714 bytes
+May 29, 2023 15:26:49.979 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.980 [139932960213816] DEBUG - Request: [172.24.0.2:55448 (WAN)] GET /web/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js (4 live) #108 GZIP
+May 29, 2023 15:26:49.980 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.980 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:49.980 [139932960213816] DEBUG - [Req#108] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:49.980 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js is 104520 (of total: 104520).
+May 29, 2023 15:26:49.980 [139932947118904] DEBUG - Request: [172.24.0.2:55480 (WAN)] GET /web/js/chunk-61-affc2c85ea04279ae2f0-plex-4.100.1.29405-21e8735.js (4 live) #10d GZIP
+May 29, 2023 15:26:49.980 [139932947118904] DEBUG - [Req#10d] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-61-affc2c85ea04279ae2f0-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:49.980 [139932949285688] DEBUG - Request: [172.24.0.2:55464 (WAN)] GET /web/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js (4 live) #10b GZIP
+May 29, 2023 15:26:49.980 [139932976917304] DEBUG - Completed: [172.24.0.2:55448] 200 GET /web/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js (4 live) #108 GZIP 0ms 104520 bytes
+May 29, 2023 15:26:49.980 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-61-affc2c85ea04279ae2f0-plex-4.100.1.29405-21e8735.js is 33750 (of total: 33750).
+May 29, 2023 15:26:49.980 [139932949285688] DEBUG - [Req#10b] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:49.980 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js is 47308 (of total: 47308).
+May 29, 2023 15:26:49.980 [139932976917304] DEBUG - Completed: [172.24.0.2:55480] 200 GET /web/js/chunk-61-affc2c85ea04279ae2f0-plex-4.100.1.29405-21e8735.js (3 live) #10d GZIP 0ms 33750 bytes
+May 29, 2023 15:26:49.980 [139932976917304] DEBUG - Completed: [172.24.0.2:55464] 200 GET /web/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js (3 live) #10b GZIP 0ms 47308 bytes
+May 29, 2023 15:26:50.019 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.019 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.020 [139932960213816] DEBUG - Request: [172.24.0.2:55496 (WAN)] GET /web/js/chunk-317-2798e4dbb1bdeeade03d-plex-4.100.1.29405-21e8735.js (4 live) #10e GZIP
+May 29, 2023 15:26:50.020 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.020 [139932947118904] DEBUG - Request: [172.24.0.2:55504 (WAN)] GET /web/js/chunk-931-9923eea13b4db8227cff-plex-4.100.1.29405-21e8735.js (4 live) #112 GZIP
+May 29, 2023 15:26:50.020 [139932960213816] DEBUG - [Req#10e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-317-2798e4dbb1bdeeade03d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.020 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-317-2798e4dbb1bdeeade03d-plex-4.100.1.29405-21e8735.js is 14976 (of total: 14976).
+May 29, 2023 15:26:50.020 [139932947118904] DEBUG - [Req#112] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-931-9923eea13b4db8227cff-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.020 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-931-9923eea13b4db8227cff-plex-4.100.1.29405-21e8735.js is 3273 (of total: 3273).
+May 29, 2023 15:26:50.020 [139932949285688] DEBUG - Request: [172.24.0.2:55508 (WAN)] GET /web/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js (4 live) #113 GZIP
+May 29, 2023 15:26:50.020 [139932974807864] DEBUG - Completed: [172.24.0.2:55504] 200 GET /web/js/chunk-931-9923eea13b4db8227cff-plex-4.100.1.29405-21e8735.js (4 live) #112 GZIP 0ms 3273 bytes
+May 29, 2023 15:26:50.020 [139932974807864] DEBUG - Completed: [172.24.0.2:55496] 200 GET /web/js/chunk-317-2798e4dbb1bdeeade03d-plex-4.100.1.29405-21e8735.js (4 live) #10e GZIP 0ms 14976 bytes
+May 29, 2023 15:26:50.020 [139932949285688] DEBUG - [Req#113] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.020 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js is 101016 (of total: 101016).
+May 29, 2023 15:26:50.020 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.020 [139932974807864] DEBUG - Completed: [172.24.0.2:55508] 200 GET /web/js/chunk-254-0a77f35a26d7b43cc442-plex-4.100.1.29405-21e8735.js (3 live) #113 GZIP 0ms 101016 bytes
+May 29, 2023 15:26:50.021 [139932947118904] DEBUG - Request: [172.24.0.2:55510 (WAN)] GET /web/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js (4 live) #114 GZIP
+May 29, 2023 15:26:50.021 [139932947118904] DEBUG - [Req#114] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.021 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js is 10300 (of total: 10300).
+May 29, 2023 15:26:50.021 [139932976917304] DEBUG - Completed: [172.24.0.2:55510] 200 GET /web/js/chunk-380-853a97915b78c885f84d-plex-4.100.1.29405-21e8735.js (4 live) #114 GZIP 0ms 10300 bytes
+May 29, 2023 15:26:50.021 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.021 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.022 [139932960213816] DEBUG - Request: [172.24.0.2:55516 (WAN)] GET /web/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js (3 live) #117 GZIP
+May 29, 2023 15:26:50.022 [139932960213816] DEBUG - [Req#117] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.022 [139932949285688] DEBUG - Request: [172.24.0.2:55530 (WAN)] GET /web/js/chunk-670-f6baab35defeddd84c96-plex-4.100.1.29405-21e8735.js (3 live) #118 GZIP
+May 29, 2023 15:26:50.022 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js is 89763 (of total: 89763).
+May 29, 2023 15:26:50.022 [139932949285688] DEBUG - [Req#118] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-670-f6baab35defeddd84c96-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.022 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-670-f6baab35defeddd84c96-plex-4.100.1.29405-21e8735.js is 967 (of total: 967).
+May 29, 2023 15:26:50.022 [139932976917304] DEBUG - Completed: [172.24.0.2:55530] 200 GET /web/js/chunk-670-f6baab35defeddd84c96-plex-4.100.1.29405-21e8735.js (3 live) #118 GZIP 0ms 967 bytes
+May 29, 2023 15:26:50.022 [139932976917304] DEBUG - Completed: [172.24.0.2:55516] 200 GET /web/js/chunk-626-fbeb7d1c1c7356f8e6db-plex-4.100.1.29405-21e8735.js (2 live) #117 GZIP 0ms 89763 bytes
+May 29, 2023 15:26:50.043 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.043 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.043 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.043 [139932947118904] DEBUG - Request: [172.24.0.2:55546 (WAN)] GET /web/js/chunk-980-e3e7c242785c9cea9926-plex-4.100.1.29405-21e8735.js (7 live) #119 GZIP
+May 29, 2023 15:26:50.043 [139932947118904] DEBUG - [Req#119] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-980-e3e7c242785c9cea9926-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.043 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.043 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-980-e3e7c242785c9cea9926-plex-4.100.1.29405-21e8735.js is 23977 (of total: 23977).
+May 29, 2023 15:26:50.043 [139932960213816] DEBUG - Request: [172.24.0.2:55576 (WAN)] GET /web/js/chunk-592-f5e1c13e3e4405f3b2d6-plex-4.100.1.29405-21e8735.js (7 live) #11f GZIP
+May 29, 2023 15:26:50.043 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.043 [139932949285688] DEBUG - Request: [172.24.0.2:55560 (WAN)] GET /web/js/chunk-613-a0a7d1e34df0b1b317ad-plex-4.100.1.29405-21e8735.js (7 live) #11e GZIP
+May 29, 2023 15:26:50.043 [139932960213816] DEBUG - [Req#11f] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-592-f5e1c13e3e4405f3b2d6-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.043 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-592-f5e1c13e3e4405f3b2d6-plex-4.100.1.29405-21e8735.js is 2380 (of total: 2380).
+May 29, 2023 15:26:50.043 [139932947118904] DEBUG - Request: [172.24.0.2:55582 (WAN)] GET /web/js/chunk-774-72bfcd0fcb32e48d5bc6-plex-4.100.1.29405-21e8735.js (7 live) #120 GZIP
+May 29, 2023 15:26:50.043 [139932947118904] DEBUG - [Req#120] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-774-72bfcd0fcb32e48d5bc6-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.043 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-774-72bfcd0fcb32e48d5bc6-plex-4.100.1.29405-21e8735.js is 1571 (of total: 1571).
+May 29, 2023 15:26:50.043 [139932886760248] DEBUG - Request: [172.24.0.2:55598 (WAN)] GET /web/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js (7 live) #121 GZIP
+May 29, 2023 15:26:50.043 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.043 [139932976917304] DEBUG - Completed: [172.24.0.2:55546] 200 GET /web/js/chunk-980-e3e7c242785c9cea9926-plex-4.100.1.29405-21e8735.js (7 live) #119 GZIP 0ms 23977 bytes
+May 29, 2023 15:26:50.043 [139932976917304] DEBUG - Completed: [172.24.0.2:55576] 200 GET /web/js/chunk-592-f5e1c13e3e4405f3b2d6-plex-4.100.1.29405-21e8735.js (7 live) #11f GZIP 0ms 2380 bytes
+May 29, 2023 15:26:50.043 [139932960213816] DEBUG - Request: [172.24.0.2:55606 (WAN)] GET /web/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js (7 live) #122 GZIP
+May 29, 2023 15:26:50.043 [139932976917304] DEBUG - Completed: [172.24.0.2:55582] 200 GET /web/js/chunk-774-72bfcd0fcb32e48d5bc6-plex-4.100.1.29405-21e8735.js (7 live) #120 GZIP 0ms 1571 bytes
+May 29, 2023 15:26:50.044 [139932960213816] DEBUG - [Req#122] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.044 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js is 131538 (of total: 131538).
+May 29, 2023 15:26:50.044 [139932949285688] DEBUG - [Req#11e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-613-a0a7d1e34df0b1b317ad-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.044 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-613-a0a7d1e34df0b1b317ad-plex-4.100.1.29405-21e8735.js is 77753 (of total: 77753).
+May 29, 2023 15:26:50.044 [139932976917304] DEBUG - Completed: [172.24.0.2:55560] 200 GET /web/js/chunk-613-a0a7d1e34df0b1b317ad-plex-4.100.1.29405-21e8735.js (4 live) #11e GZIP 1ms 77753 bytes
+May 29, 2023 15:26:50.044 [139932974807864] DEBUG - Completed: [172.24.0.2:55606] 200 GET /web/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js (3 live) #122 GZIP 0ms 131538 bytes
+May 29, 2023 15:26:50.045 [139932886760248] DEBUG - [Req#121] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.045 [139932886760248] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js is 23021 (of total: 23021).
+May 29, 2023 15:26:50.045 [139932974807864] DEBUG - Completed: [172.24.0.2:55598] 200 GET /web/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js (2 live) #121 GZIP 1ms 23021 bytes
+May 29, 2023 15:26:50.051 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.051 [139932974807864] DEBUG - Request: [172.24.0.2:55618 (WAN)] GET /media/providers (2 live) #123 GZIP
+May 29, 2023 15:26:50.051 [139932974807864] DEBUG - Completed: [172.24.0.2:55618] 401 GET /media/providers (2 live) #123 GZIP 0ms 357 bytes
+May 29, 2023 15:26:50.053 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.053 [139932974807864] DEBUG - Request: [172.24.0.2:55632 (WAN)] GET / (2 live) #12a GZIP
+May 29, 2023 15:26:50.053 [139932974807864] DEBUG - Completed: [172.24.0.2:55632] 401 GET / (2 live) #12a GZIP 0ms 435 bytes
+May 29, 2023 15:26:50.065 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.065 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.065 [139932947118904] DEBUG - Request: [172.24.0.2:55646 (WAN)] GET /web/js/chunk-333-016a30e03e42de9f09dd-plex-4.100.1.29405-21e8735.js (7 live) #12c GZIP
+May 29, 2023 15:26:50.065 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.065 [139932947118904] DEBUG - [Req#12c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-333-016a30e03e42de9f09dd-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.065 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-333-016a30e03e42de9f09dd-plex-4.100.1.29405-21e8735.js is 36953 (of total: 36953).
+May 29, 2023 15:26:50.065 [139932960213816] DEBUG - Request: [172.24.0.2:55666 (WAN)] GET /web/js/chunk-639-82d3d64fc49879bd7a62-plex-4.100.1.29405-21e8735.js (7 live) #12f GZIP
+May 29, 2023 15:26:50.066 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.066 [139932960213816] DEBUG - [Req#12f] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-639-82d3d64fc49879bd7a62-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.066 [139932949285688] DEBUG - Request: [172.24.0.2:55670 (WAN)] GET /web/js/chunk-735-7590a699af5a9ea9fd05-plex-4.100.1.29405-21e8735.js (7 live) #130 GZIP
+May 29, 2023 15:26:50.066 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.066 [139932949285688] DEBUG - [Req#130] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-735-7590a699af5a9ea9fd05-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.066 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-735-7590a699af5a9ea9fd05-plex-4.100.1.29405-21e8735.js is 4693 (of total: 4693).
+May 29, 2023 15:26:50.066 [139932974807864] DEBUG - Completed: [172.24.0.2:55646] 200 GET /web/js/chunk-333-016a30e03e42de9f09dd-plex-4.100.1.29405-21e8735.js (7 live) #12c GZIP 0ms 36953 bytes
+May 29, 2023 15:26:50.066 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.066 [139932949285688] DEBUG - Request: [172.24.0.2:55684 (WAN)] GET /web/js/chunk-785-7dfba974788d9abf5abb-plex-4.100.1.29405-21e8735.js (7 live) #131 GZIP
+May 29, 2023 15:26:50.066 [139932947118904] DEBUG - Request: [172.24.0.2:55686 (WAN)] GET /web/js/chunk-519-bf13ba9b4824cb8a3f3b-plex-4.100.1.29405-21e8735.js (7 live) #132 GZIP
+May 29, 2023 15:26:50.066 [139932949285688] DEBUG - [Req#131] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-785-7dfba974788d9abf5abb-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.066 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-785-7dfba974788d9abf5abb-plex-4.100.1.29405-21e8735.js is 27525 (of total: 27525).
+May 29, 2023 15:26:50.066 [139932974807864] DEBUG - Completed: [172.24.0.2:55670] 200 GET /web/js/chunk-735-7590a699af5a9ea9fd05-plex-4.100.1.29405-21e8735.js (7 live) #130 GZIP 0ms 4693 bytes
+May 29, 2023 15:26:50.066 [139932974807864] DEBUG - Completed: [172.24.0.2:55684] 200 GET /web/js/chunk-785-7dfba974788d9abf5abb-plex-4.100.1.29405-21e8735.js (7 live) #131 GZIP 0ms 27525 bytes
+May 29, 2023 15:26:50.067 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-639-82d3d64fc49879bd7a62-plex-4.100.1.29405-21e8735.js is 618514 (of total: 618514).
+May 29, 2023 15:26:50.067 [139932886760248] DEBUG - Request: [172.24.0.2:55654 (WAN)] GET /web/js/chunk-282-eeadccb33ca381501b80-plex-4.100.1.29405-21e8735.js (4 live) #12e GZIP
+May 29, 2023 15:26:50.067 [139932886760248] DEBUG - [Req#12e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-282-eeadccb33ca381501b80-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.067 [139932886760248] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-282-eeadccb33ca381501b80-plex-4.100.1.29405-21e8735.js is 14324 (of total: 14324).
+May 29, 2023 15:26:50.067 [139932976917304] DEBUG - Completed: [172.24.0.2:55654] 200 GET /web/js/chunk-282-eeadccb33ca381501b80-plex-4.100.1.29405-21e8735.js (4 live) #12e GZIP 0ms 14324 bytes
+May 29, 2023 15:26:50.068 [139932947118904] DEBUG - [Req#132] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-519-bf13ba9b4824cb8a3f3b-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:50.068 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-519-bf13ba9b4824cb8a3f3b-plex-4.100.1.29405-21e8735.js is 4607 (of total: 4607).
+May 29, 2023 15:26:50.068 [139932976917304] DEBUG - Completed: [172.24.0.2:55686] 200 GET /web/js/chunk-519-bf13ba9b4824cb8a3f3b-plex-4.100.1.29405-21e8735.js (3 live) #132 GZIP 1ms 4607 bytes
+May 29, 2023 15:26:50.068 [139932974807864] DEBUG - Completed: [172.24.0.2:55666] 200 GET /web/js/chunk-639-82d3d64fc49879bd7a62-plex-4.100.1.29405-21e8735.js (2 live) #12f GZIP 2ms 618514 bytes
+May 29, 2023 15:26:50.083 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:50.083 [139932949285688] DEBUG - Request: [172.24.0.2:55696 (WAN)] GET /identity (2 live) #133 GZIP
+May 29, 2023 15:26:50.083 [139932976917304] DEBUG - Completed: [172.24.0.2:55696] 200 GET /identity (2 live) #133 GZIP 0ms 451 bytes
+May 29, 2023 15:26:51.545 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:51.545 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:51.545 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:51.545 [139932960213816] DEBUG - Request: [172.24.0.2:55700 (WAN)] GET /web/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js (5 live) #13a GZIP
+May 29, 2023 15:26:51.545 [139932960213816] DEBUG - [Req#13a] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:51.545 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:26:51.545 [139932960213816] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js is 23021 (of total: 23021).
+May 29, 2023 15:26:51.545 [139932886760248] DEBUG - Request: [172.24.0.2:55706 (WAN)] GET /web/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js (5 live) #13c GZIP
+May 29, 2023 15:26:51.545 [139932949285688] DEBUG - Request: [172.24.0.2:55722 (WAN)] GET /web/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js (5 live) #13d GZIP
+May 29, 2023 15:26:51.545 [139932949285688] DEBUG - [Req#13d] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:51.545 [139932974807864] DEBUG - Completed: [172.24.0.2:55700] 200 GET /web/js/chunk-100-1ae9cf655a5b8e852b4a-plex-4.100.1.29405-21e8735.js (5 live) #13a GZIP 0ms 23021 bytes
+May 29, 2023 15:26:51.545 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js is 131538 (of total: 131538).
+May 29, 2023 15:26:51.545 [139932886760248] DEBUG - [Req#13c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:26:51.545 [139932886760248] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js is 24902 (of total: 24902).
+May 29, 2023 15:26:51.545 [139932947118904] DEBUG - Request: [172.24.0.2:55734 (WAN)] GET /web/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.css (4 live) #13e GZIP
+May 29, 2023 15:26:51.545 [139932947118904] DEBUG - [Req#13e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:26:51.546 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.css is 18475 (of total: 18475).
+May 29, 2023 15:26:51.546 [139932976917304] DEBUG - Completed: [172.24.0.2:55734] 200 GET /web/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.css (4 live) #13e GZIP 0ms 18475 bytes
+May 29, 2023 15:26:51.546 [139932974807864] DEBUG - Completed: [172.24.0.2:55706] 200 GET /web/js/chunk-790-cc6c6e5cc8615f96a1cb-plex-4.100.1.29405-21e8735.js (3 live) #13c GZIP 0ms 24902 bytes
+May 29, 2023 15:26:51.546 [139932976917304] DEBUG - Completed: [172.24.0.2:55722] 200 GET /web/js/chunk-798-c02c237ea489f47b36c2-plex-4.100.1.29405-21e8735.js (2 live) #13d GZIP 1ms 131538 bytes
+May 29, 2023 15:27:10.512 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:27:10.512 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:27:10.513 [139932886760248] DEBUG - Request: [172.24.0.2:55548 (WAN)] GET /web/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js (6 live) #13f GZIP
+May 29, 2023 15:27:10.513 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:27:10.513 [139932886760248] DEBUG - [Req#13f] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:27:10.513 [139932886760248] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js is 44714 (of total: 44714).
+May 29, 2023 15:27:10.513 [139932974807864] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:27:10.513 [139932976917304] DEBUG - Using X-Forwarded-For: 98.197.36.107 as remote address
+May 29, 2023 15:27:10.513 [139932949285688] DEBUG - Request: [172.24.0.2:55554 (WAN)] GET /web/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js (6 live) #144 GZIP
+May 29, 2023 15:27:10.513 [139932949285688] DEBUG - [Req#144] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:27:10.513 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js is 104520 (of total: 104520).
+May 29, 2023 15:27:10.513 [139932947118904] DEBUG - Request: [172.24.0.2:55564 (WAN)] GET /web/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.css (6 live) #145 GZIP
+May 29, 2023 15:27:10.513 [139932930501432] DEBUG - Request: [172.24.0.2:55578 (WAN)] GET /web/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js (6 live) #146 GZIP
+May 29, 2023 15:27:10.513 [139932930501432] DEBUG - [Req#146] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js"
+May 29, 2023 15:27:10.513 [139932949285688] DEBUG - Request: [172.24.0.2:55588 (WAN)] GET /web/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.css (6 live) #147 GZIP
+May 29, 2023 15:27:10.513 [139932976917304] DEBUG - Completed: [172.24.0.2:55554] 200 GET /web/js/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.js (6 live) #144 GZIP 0ms 104520 bytes
+May 29, 2023 15:27:10.513 [139932930501432] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js is 47308 (of total: 47308).
+May 29, 2023 15:27:10.513 [139932949285688] DEBUG - [Req#147] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:27:10.514 [139932949285688] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.css is 4593 (of total: 4593).
+May 29, 2023 15:27:10.514 [139932976917304] DEBUG - Completed: [172.24.0.2:55578] 200 GET /web/js/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.js (5 live) #146 GZIP 0ms 47308 bytes
+May 29, 2023 15:27:10.514 [139932974807864] DEBUG - Completed: [172.24.0.2:55548] 200 GET /web/js/chunk-111-86e1ad28369fe045ea7a-plex-4.100.1.29405-21e8735.js (4 live) #13f GZIP 1ms 44714 bytes
+May 29, 2023 15:27:10.514 [139932974807864] DEBUG - Completed: [172.24.0.2:55588] 200 GET /web/chunk-985-87f0317e939e5d005732-plex-4.100.1.29405-21e8735.css (3 live) #147 GZIP 0ms 4593 bytes
+May 29, 2023 15:27:10.515 [139932947118904] DEBUG - [Req#145] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.css"
+May 29, 2023 15:27:10.515 [139932947118904] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-248a2daf0/WebClient.bundle/Contents/Resources/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.css is 21424 (of total: 21424).
+May 29, 2023 15:27:10.515 [139932974807864] DEBUG - Completed: [172.24.0.2:55564] 200 GET /web/chunk-842-9821ab35a5e67a2bdc20-plex-4.100.1.29405-21e8735.css (2 live) #145 GZIP 1ms 21424 bytes
+May 29, 2023 15:40:54.494 [139932979391288] DEBUG - Shutting down with signal 15 (Terminated)
+May 29, 2023 15:40:54.494 [139932979391288] DEBUG - Ordered to stop server.
+May 29, 2023 15:40:54.494 [139932984134288] DEBUG - Stopping server...
+May 29, 2023 15:40:54.494 [139932984134288] DEBUG - HttpServer: Stopping server.
+May 29, 2023 15:40:54.494 [139932971510584] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+May 29, 2023 15:40:54.494 [139932971510584] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+May 29, 2023 15:40:54.494 [139932971510584] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+May 29, 2023 15:40:54.494 [139932984134288] DEBUG - Server stopped.
+May 29, 2023 15:40:54.494 [139932984134288] DEBUG - NetworkService: Stopping advertisement.
+May 29, 2023 15:40:54.494 [139932984134288] DEBUG - Killing plug-ins.
+May 29, 2023 15:40:54.533 [139932984134288] DEBUG - [com.plexapp.system] Killing.
+May 29, 2023 15:40:54.537 [139932979391288] WARN - JobManager: Could not find job for handle 177
+May 29, 2023 15:40:54.539 [139932984134288] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
+May 29, 2023 15:40:54.539 [139932984134288] DEBUG - [JobRunner] Signalling job ID 245 with 2
+May 29, 2023 15:40:54.546 [139932979391288] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 245 is 0 (success)
+May 29, 2023 15:40:54.546 [139932936383288] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
+May 29, 2023 15:40:54.546 [139932984134288] DEBUG - Database: Shutting down.
+May 29, 2023 15:40:54.554 [139932984134288] DEBUG - Database: Shutting down.
